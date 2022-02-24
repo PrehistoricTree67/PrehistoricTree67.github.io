@@ -12,45 +12,57 @@
     <title>PrehistoricTree.github.io</title>
   </head>
   <body>
-      <div id="name">
+        <div id="name">
           <h1>Jonah Li</h1>
       </div>
-      <img src="FD.jpg" width="300" height="300">
+      <img src="FD.jpg" width="230" height="300">
       <div id="class-work">
           <h2>WDD 230: Assignment Portal</h2>
       </div>
     <ul><li>
-            Week 01: <a href="https://byui.instructure.com/courses/180216/assignments/8441321?module_item_id=23572690" target="blank">Course Assignment Portal</a>
+            Week 01: <a href="https://byui.instructure.com/courses/180216/assignments/8441321?module_item_id=23572690" target="blank" style="color: rgb(7, 90, 168);">Course Assignment Portal</a>
             </li>
         <li>
-            Week 01: <a href="https://byui.instructure.com/courses/180216/assignments/8441323?module_item_id=23572702" target="blank">Design Principles Document</a>
+            Week 01: <a href="https://byui.instructure.com/courses/180216/assignments/8441323?module_item_id=23572702" target="blank" style="color: rgb(7, 90, 168);">Design Principles Document</a>
         </li>
         <li>
-            Week 02: <a href="https://byui.instructure.com/courses/180216/assignments/8441329?module_item_id=23572716" target="blank">The Weather Site Planning</a>
+            Week 02: <a href="https://byui.instructure.com/courses/180216/assignments/8441329?module_item_id=23572716" target="blank" style="color: rgb(7, 90, 168);">The Weather Site Planning</a>
         </li>
         <li>
-            Week 02: <a href="https://byui.instructure.com/courses/180216/assignments/8441327?module_item_id=23572724" target="blank">Preston Town Page Start</a>
+            Week 02: <a href="https://byui.instructure.com/courses/180216/assignments/8441327?module_item_id=23572724" target="blank" style="color: rgb(7, 90, 168);">Preston Town Page Start</a>
         </li></ul>
-        <div class="footer">©2022 | Jonah (Yen-Xin) Li | Pennsylvania | <a href="https://www.byui.edu/online" target="blank">BYU-I Online Learning</a><br>
+        <div class="footer">©2022 | Jonah (Yen-Xin) Li | Pennsylvania | <a href="https://www.byui.edu/online" target="blank" style="color: rgb(7, 90, 168);">BYU-I Online Learning</a><br>
         <div id="date">
         </div> </div>
         <script>
           let date= document.getElementById("date");
           date.innerHTML=`Last Updated: ${document.lastModified}`;
-        </script>
-  </body>
+        </script> 
+  </body> 
   <style>
+    body {
+      grid-template-columns: 3fr 2fr;
+      grid-gap: 6px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    content{
+      max-width: 500px;
+      margin: auto;
+      padding: 10px;
+    }
       h1 {
         font-family: 'Acme', sans-serif;
         background-color: aquamarine;
         border-radius: 10px;
         font-size: 86px;
         text-align: center;
+        width: 900px;
       }
       h2 {
         font-family: 'Signika', sans-serif;
         border-bottom: 2px solid rgb(119, 116, 116);
-        width: 500px;
+        width: 900px;
       }
       .footer {
         font-family: 'Tajawal', sans-serif;
@@ -59,11 +71,13 @@
         border-radius: 10px;
         padding: 10px;
         text-align: center;
+        width: 900px;
       }
       img{
         position: absolute;
-        top: 70px;
-        right: 50px;
+        top: 83px;
+        left: 889px;
+        box-shadow: 9px 6px 11px grey;
       }
   </style>
 </html>
