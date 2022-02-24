@@ -15,13 +15,11 @@
       <div id="name">
           <h1>Jonah Li</h1>
       </div>
-      <div class="img">
-          <img src="20190624_114806.jpg">
-      </div>
+      <img src="FD.jpg" width="300" height="300">
       <div id="class-work">
           <h2>WDD 230: Assignment Portal</h2>
       </div>
-    <p><ul><li>
+    <ul><li>
             Week 01: <a href="https://byui.instructure.com/courses/180216/assignments/8441321?module_item_id=23572690" target="blank">Course Assignment Portal</a>
             </li>
         <li>
@@ -32,24 +30,40 @@
         </li>
         <li>
             Week 02: <a href="https://byui.instructure.com/courses/180216/assignments/8441327?module_item_id=23572724" target="blank">Preston Town Page Start</a>
-        </li></ul></p>
-        <p>©2022 | Jonah (Yen-Xin) Li | Pennsylvania | <a href="https://www.byui.edu/online" target="blank">BYU-I Online Learning</a></p>
+        </li></ul>
+        <div class="footer">©2022 | Jonah (Yen-Xin) Li | Pennsylvania | <a href="https://www.byui.edu/online" target="blank">BYU-I Online Learning</a><br>
+        <div id="date">
+        </div> </div>
         <script>
-            let nLastModif = Date.parse(document.lastModified);
+          let date= document.getElementById("date");
+          date.innerHTML=`Last Updated: ${document.lastModified}`;
         </script>
   </body>
   <style>
       h1 {
         font-family: 'Acme', sans-serif;
-        border: 10px solid #78B951;
-        border: 10px solid #78B951;
-        box-shadow: 4px 5px 5px #999;
+        background-color: aquamarine;
+        border-radius: 10px;
+        font-size: 86px;
+        text-align: center;
       }
       h2 {
         font-family: 'Signika', sans-serif;
+        border-bottom: 2px solid rgb(119, 116, 116);
+        width: 500px;
       }
-      p {
+      .footer {
         font-family: 'Tajawal', sans-serif;
+        font-size: small;
+        background-color: aquamarine;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+      }
+      img{
+        position: absolute;
+        top: 70px;
+        right: 50px;
       }
   </style>
 </html>
