@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Serif:wght@300&family=Noto+Serif+Display:wght@300&display=swap');
+
+.container {
+    display: grid;
+    width: 860px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 210px 210px;
+    grid-gap: 2rem;
+  }
+
+body {
+    font-family: 'IBM Plex Serif', serif;
+}
+
