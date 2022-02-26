@@ -1,70 +1,64 @@
 @charset "utf-8";
-:root {
-    background-color: rgb(219, 109, 82);
-    color:rgb(231, 157, 73);
-    --red-orange: rgb(228, 104, 32);
-    --red-pink: rgb(194, 36, 70);
-    --yellow-orange: rgb(245, 192, 94);
-}
-
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap'); */
 body {
-    font-size: 18px;
-    line-height: 2.6;
-    font-family: 'IBM Plex Serif', serif;
-    color:rgb(5, 95, 95);
-    height: 220%;
+	font-family: 'Roboto', sans-serif;
 }
-
-h1 {
-    font-size: 2.4em;
-    margin: 1.23em;
+header, footer, main {
+	max-width: 66em;
+	margin: 0 auto;
 }
-
-.subheading {
-    font-size: 2.4em;
-    color:rgb(77, 2, 2);
-    text-shadow: 2px 2px 3px rgb(71, 63, 63);
-}
-
-h2 {
-    font-size: 2;
-    border-bottom: 1px solid rgb(34, 20, 20);
-    margin-bottom: 0.7em;
-}
-
-header,
-nav,
-main,
-footer {
-    margin: 0 auto;
-    padding: 1.23em;
-    max-width: 55em;
-}
-
-header {
-    margin-top: 11px;
-}
-
 header, footer {
+	background-color: rgb(4, 22, 61);
+	color: rgba(255, 255, 255, 1);
+	padding: 5px;
+    text-align: center;	
+    border-radius: 10px;
+}
+h1 {
+	font-family: 'Roboto', sans-serif;
+}
+a {
+	color: rgb(4, 22, 61);
+	text-decoration: none;
+	text-align: center;	
+}
+a:hover {
+	color: rgba(143, 143, 143, 1);
+}
+footer p a {
+	color: rgba(255, 255, 255, 1);
+}
+footer p a:hover {
+	color: rgba(78, 78, 78, 1);
+}
+#mainColumns {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 5px;
+	padding: 5px;
+}
+section {
+	margin: 5px;
+	border: 1px solid rgb(4, 22, 61);
+	background-color: rgb(251, 233, 194);
+	width: auto;
+	border-radius: 10px;
+}
+h3 {
     text-align: center;
-    background-color: var(--red-orange);
-    color:rgb(12, 65, 109);
+    margin: 0;
+	background-color: rgb(4, 22, 61);
+	color: rgba(255, 255, 255, 1);
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+}
+section p {
+    margin: 15px;
+	text-align: center;	
+}
+picture img {
+	max-width: 90%;
+	padding: 15px;
 }
 
-header img {
-    width: 238px;
-    height: auto;
-}
 
-footer {
-    font-size: 0.8em;
-}
-
-footer a {
-    color:rgb(5, 77, 77);
-}

@@ -1,0 +1,70 @@
+@charset "utf-8";
+:root {
+    background-color: rgb(219, 109, 82);
+    color:rgb(231, 157, 73);
+    --red-orange: rgb(228, 104, 32);
+    --red-pink: rgb(194, 36, 70);
+    --yellow-orange: rgb(245, 192, 94);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    line-height: 2.6;
+    font-family: 'IBM Plex Serif', serif;
+    color:rgb(5, 95, 95);
+    height: 220%;
+}
+
+h1 {
+    font-size: 2.4em;
+    margin: 1.23em;
+}
+
+.subheading {
+    font-size: 2.4em;
+    color:rgb(77, 2, 2);
+    text-shadow: 2px 2px 3px rgb(71, 63, 63);
+}
+
+h2 {
+    font-size: 2;
+    border-bottom: 1px solid rgb(34, 20, 20);
+    margin-bottom: 0.7em;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 0 auto;
+    padding: 1.23em;
+    max-width: 55em;
+}
+
+header {
+    margin-top: 11px;
+}
+
+header, footer {
+    text-align: center;
+    background-color: var(--red-orange);
+    color:rgb(12, 65, 109);
+}
+
+header img {
+    width: 238px;
+    height: auto;
+}
+
+footer {
+    font-size: 0.8em;
+}
+
+footer a {
+    color:rgb(5, 77, 77);
+}
