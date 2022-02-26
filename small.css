@@ -45,3 +45,26 @@ footer {
     padding: 1.23rem;
     max-width: 55rem;
 }
+
+header {
+    margin-top: 11px;
+}
+
+header, footer {
+    text-align: center;
+    background-color: var(--red-orange);
+    color:rgb(12, 65, 109);
+}
+
+header img {
+    width: 238px;
+    height: auto;
+}
+
+footer {
+    font-size: 0.8rem;
+}
+
+footer a {
+    color:rgb(5, 77, 77);
+}
