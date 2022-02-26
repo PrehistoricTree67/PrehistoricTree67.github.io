@@ -21,12 +21,12 @@ body {
 }
 
 h1 {
-    font-size: 2.4rem;
-    margin: 1.23rem;
+    font-size: 2.4em;
+    margin: 1.23em;
 }
 
 .subheading {
-    font-size: 2.4rem;
+    font-size: 2.4em;
     color:rgb(77, 2, 2);
     text-shadow: 2px 2px 3px rgb(71, 63, 63);
 }
@@ -34,7 +34,7 @@ h1 {
 h2 {
     font-size: 2;
     border-bottom: 1px solid rgb(34, 20, 20);
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.7em;
 }
 
 header,
@@ -42,8 +42,8 @@ nav,
 main,
 footer {
     margin: 0 auto;
-    padding: 1.23rem;
-    max-width: 55rem;
+    padding: 1.23em;
+    max-width: 55em;
 }
 
 header {
@@ -62,7 +62,7 @@ header img {
 }
 
 footer {
-    font-size: 0.8rem;
+    font-size: 0.8em;
 }
 
 footer a {
