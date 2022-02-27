@@ -14,7 +14,7 @@
 
 body {
     font-size: 18px;
-    line-height: 2.6;
+    line-height: 2;
     font-family: 'IBM Plex Serif', serif;
     color:rgb(5, 95, 95);
     height: 220%;
@@ -74,22 +74,21 @@ footer a {
     width: 300px;
     border: 15px solid green;
     padding: 50px;
-    margin: 20px;
+    margin: 10px;
 }
 .design2 {
-    float: center;
-    background-color: lightgrey;
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-}
-
-.design3 {
     float: right;
     background-color: lightgrey;
     width: 300px;
     border: 15px solid green;
     padding: 50px;
-    margin: 20px;
+    margin: 10px;
+}
+
+.design3 {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 10px;
 }
