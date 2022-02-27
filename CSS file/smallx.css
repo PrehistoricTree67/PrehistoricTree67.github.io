@@ -69,7 +69,15 @@ footer a {
     color:rgb(5, 77, 77);
 }
 
-.design {
+.design1 {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+.design2 {
+    float: right;
     background-color: lightgrey;
     width: 300px;
     border: 15px solid green;
