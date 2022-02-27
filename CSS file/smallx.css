@@ -69,24 +69,26 @@ footer a {
 }
 
 .design1 {
+    float: left;
     background-color: lightgrey;
-    width: 300px;
+    width: 33.33%;
     border: 15px solid rgb(49, 116, 49);
     padding: 30px;
     margin: 5px;
 }
 .design2 {
-    float: right;
+    float: left;
     background-color: lightgrey;
-    width: 300px;
+    width: 33.33%;
     border: 15px solid green;
     padding: 30px;
     margin: 5px;
 }
 
 .design3 {
+    float: right;
     background-color: lightgrey;
-    width: 300px;
+    width: 33.33%;
     border: 15px solid green;
     padding: 30px;
     margin: 5px;
