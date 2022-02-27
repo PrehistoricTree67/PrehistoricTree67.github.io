@@ -16,7 +16,7 @@ body {
     font-size: 18px;
     line-height: 2;
     font-family: 'IBM Plex Serif', serif;
-    color:rgb(5, 95, 95);
+    color:rgb(93, 105, 105);
     height: 100%;
 }
 
@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2;
+    font-size: 2.0em;
     border-bottom: 1px solid rgb(34, 20, 20);
     margin-bottom: 0.7em;
 }
@@ -43,7 +43,7 @@ main,
 footer {
     margin: 0 auto;
     padding: 1.23em;
-    max-width: 55em;
+    max-width: 60em;
 }
 
 header {
@@ -54,15 +54,14 @@ header, footer {
     text-align: center;
     background-color: var(--red-orange);
     color:rgb(12, 65, 109);
+    padding:5px;
+    border-radius: 15px;
 }
 
-header img {
-    width: 238px;
-    height: auto;
-}
+
 
 footer {
-    font-size: 0.8em;
+    font-size: 1.0em;
 }
 
 footer a {
@@ -72,23 +71,23 @@ footer a {
 .design1 {
     background-color: lightgrey;
     width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 10px;
+    border: 15px solid rgb(49, 116, 49);
+    padding: 30px;
+    margin: 5px;
 }
 .design2 {
     float: right;
     background-color: lightgrey;
     width: 300px;
     border: 15px solid green;
-    padding: 50px;
-    margin: 10px;
+    padding: 30px;
+    margin: 5px;
 }
 
 .design3 {
     background-color: lightgrey;
     width: 300px;
     border: 15px solid green;
-    padding: 50px;
-    margin: 10px;
+    padding: 30px;
+    margin: 5px;
 }
