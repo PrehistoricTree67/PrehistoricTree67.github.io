@@ -31,7 +31,7 @@ footer p a {
 footer p a:hover {
 	color: rgba(78, 78, 78, 1);
 }
-#mainColumns {
+.design {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 5px;
