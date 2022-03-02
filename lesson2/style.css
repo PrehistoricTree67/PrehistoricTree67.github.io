@@ -1,6 +1,12 @@
 img {
     width: 190px;
+    margin-bottom: 100px;
+    margin-top: 20px;
 }
 header {
     background-color: rgb(197, 226, 217);
+}
+.title {
+    margin-left: 180px;
+    margin-top: -90px;
 }
