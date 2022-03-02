@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Patrick+Hand&display=swap');
 .logo {
     width: 190px;
-    margin-bottom: 100px;
-    margin-right: 263px;
+    margin-bottom: 65px;
+    margin-top: 56px;
+    margin-right: 763px;
 }
 header {
     background-color: rgb(197, 226, 217);
@@ -22,4 +24,16 @@ html {
 footer {
     background-color: rgb(86, 201, 166);
     border-radius: 3000px;
+}
+#message {
+    height: 70px;
+    width: 190px;
+}
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 90px;
+}
+.paragraph {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
 }
