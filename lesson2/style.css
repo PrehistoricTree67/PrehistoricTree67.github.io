@@ -1,14 +1,17 @@
 .logo {
     width: 190px;
     margin-bottom: 100px;
-    margin-top: 20px;
+    margin-right: 263px;
 }
 header {
     background-color: rgb(197, 226, 217);
+    border-radius: 270px;
+    border-top: 60px;
 }
 .title {
     margin-left: 180px;
-    margin-top: -190px;
+    margin-top: -219px;
+    margin-bottom: 89px;
 }
 #neighborhood {
     width: 590px;
@@ -18,4 +21,5 @@ html {
 }
 footer {
     background-color: rgb(86, 201, 166);
+    border-radius: 3000px;
 }
