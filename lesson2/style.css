@@ -13,3 +13,9 @@ header {
 #neighborhood {
     width: 590px;
 }
+html {
+    background-color: bisque;
+}
+footer {
+    background-color: rgb(86, 201, 166);
+}
