@@ -1,21 +1,60 @@
+<!DOCTYPE HTML>
 <html lang="en-us">
-    <head>
+    <center><head>
         <meta charset="utf-8">
-        <meta name="Preston-Town" content="Town-page">
-        <link href="/Users/jonahli/Desktop/PrehistoricTree67.github.io/lesson2/index.html">
+        <meta name="site-planning" content="weather-change">
         <link rel="stylesheet" href="/Users/jonahli/Desktop/PrehistoricTree67.github.io/lesson2/style.css">
-        <title>Preston Town Page</title>
-    </head>
-    <body>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&family=Patrick+Hand&display=swap" rel="stylesheet">
+        <title>Change of Climate</title>
+    </head></center>
+   <center><body>
         <header>
             <div>
-                <img src="/Users/jonahli/Desktop/PrehistoricTree67.github.io/cloudy_sunny.png" width="190px" class="logo">
+                <img src="/Users/jonahli/Desktop/PrehistoricTree67.github.io/cloudy_sunny.png" class="logo">
                 <h1 class="title">PennsyLimate Alter</h1>
             </div>
             <div class="motto">
-                <p class="script">Altering Pennsylvanian journey across the whole world!</p>
+                <p class="script">Altering Pennsylvanian Weather You Will Never Forget.</p>
             </div>
-            <h1>Preston Town</h1>
         </header>
+        <nav>
+            <ul>
+                <li><a href="/Users/jonahli/Desktop/PrehistoricTree67.github.io/lesson2/index.html" style="color: rgb(10, 124, 86);">Home</a></li>
+                <li><a href="/Users/jonahli/Desktop/PrehistoricTree67.github.io/lesson2/preston.html" style="color: rgb(10, 124, 86)">Preston</a></li>
+                <li><a>Soda Springs</a></li>
+                <li><a>Fish Haven</a></li>
+                <li><a>Storm Center</a></li>
+                <li><a>Gallery</a></li>
+            </ul>
+        </nav>
+
+        <div class="section-break">
+            <picture>
+                <img src="/Users/jonahli/Desktop/PrehistoricTree67.github.io/lesson2/road.jpg" id="neighborhood">
+            </picture>
+            <p class="paragraph">What is the weather today in Washington Pennsylvania? Today, the weather here is a sunny day<br>
+                but with a condition of a cold wind. It is currently 45° Farenheit with a 60% of humidity, a 3 mph wind,<br>
+                and a 1% precipitation. But since it is quite sunny today, it would definitely be a great time to open up the<br>
+                curtains to provide some sunlight for your indoor house plants. Sunlight provides energy for the plants to help<br>
+                your indoor plants to grow and to survive inorder to help filter out the bad air.
+            </p>
+        </div>
+        <footer>
+            <b><p class="contact">Contact Us:</p></b>
+            <p><b>Email:</b> <input type="text" id="email"></p>
+            <p><b>Phone Number:</b> <input type="text" id="phonenum"></p>
+            <p><b>Message:</b> <input type="text" id="message"></p>
+            <p class="id">Want to know more about me click on this link here for a brief introduction:<a href="/Users/jonahli/Desktop/PrehistoricTree67.github.io/HTML/index.html" style="color:rgb(1, 59, 61)"><br>Assignment Portal</a><br><br></p>
+            <div id="footer">©2022  |  Jonah (Yen-Xin) Li  |  Pennsylvania  |   <a href="https://my.byui.edu/ICS/" target="blank" style="color: rgb(7, 69, 161)">BYU-Idaho.com</a></div><br>
+            <div id="holder"></div>
     </body>
+    <script>
+        {
+            var lastUpdate = new Date(document.lastModified);
+            document.getElementById("holder").innerHTML = lastUpdate;
+        }
+    </script></center>
 </html>
