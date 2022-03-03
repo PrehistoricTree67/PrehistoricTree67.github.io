@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+.placeholder {
+    display: block;
+    margin: 12px auto;
+    border: 2px dotted rgb(44, 0, 0);
+    padding: 17px;
+    background-color: rgb(203, 243, 243);
+}
