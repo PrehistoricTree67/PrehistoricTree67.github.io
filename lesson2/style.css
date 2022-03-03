@@ -30,6 +30,7 @@ footer {
     width: 190px;
 }
 .title {
+    color:rgb(7, 107, 107);
     font-family: 'Pacifico', cursive;
     font-size: 90px;
 }
@@ -38,6 +39,7 @@ footer {
     font-size: 20px;
 }
 .script {
+    color: #056e74;
     margin-top: -70px;
     font-family: 'Bree Serif', serif;
     font-size: 32px;
@@ -80,4 +82,10 @@ nav{
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em,1fr))
+}
+#holder {
+    color: rgb(255, 255, 255);
+}
+.id {
+    font-family: 'Catamaran', sans-serif;
 }
