@@ -4,5 +4,19 @@
     margin: 12px auto;
     border: 2px dotted rgb(44, 0, 0);
     padding: 17px;
-    background-color: rgb(203, 243, 243);
+    background-color: rgb(234, 248, 248);
+    font-family: 'Fredoka', sans-serif;
+}
+main {
+    display: block;
+}
+body {
+    font-size: 18px;
+    font-family: 'Istok Web', sans-serif;
+}
+h1 {
+    font-family: 'Hammersmith One', sans-serif;
+}
+html {
+    color: -internal-root-color;
 }
