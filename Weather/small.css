@@ -29,12 +29,12 @@ div {
     left: 9px;
   }
   header {
-    background-color: rgb(142, 156, 185);
+    background-color: rgb(192, 211, 250);
     display: grid;
     align-content: center;
     justify-content: center;
     margin-bottom: 29px;
-    margin-right: 600px;
+    margin-right: 690px;
   }
   #site-title {
       margin-top: 49px;
@@ -96,6 +96,11 @@ div {
   #chex {
       display: none;
   }
+
+footer {
+    background-color: rgb(192, 211, 250);
+}
+
   @media (max-width: 952px) {
       label.menu{
           font-size: 40px;
