@@ -44,99 +44,75 @@ div {
       margin-left: 79px;
       margin-bottom: 56px;
   }
-  * {
-      padding: 0;
-      margin: 0;
-      text-decoration: none;
-      list-style: none;
-      box-sizing: border-box;
-  }
-  nav {
-      background: #8bffe6;
-      height: 85px;
-      width: 120%;
-  }
-  label.menu {
-    color:rgb(3, 23, 114);
-    font-size: 46px;
-    line-height: 85px;
-    padding: 0 110px;
-    font-weight: bold;
-    font-family: 'Lobster', cursive;
-  }
-  nav ul {
-      float:right;
-      margin-right: 20px;
-  }
-  nav ul li {
-      display: inline-block;
-      line-height: 80px;
-      margin: 0 5px;
-  }
-  nav ul li a {
-      color:rgb(0, 41, 41);
-      font-size: 18px;
-      padding: 7px 13px;
-      border-radius: 3px;
-      text-transform: uppercase;
-  }
-  a.act,a:hover {
-    background: #1b9bff;
-    transition: .5s;
-  }
-  .chessclub {
-      font-size: 32px;
-      color:darkblue;
-      float:right;
-      line-height: 82px;
-      margin-right: 40px;
-      cursor:pointer;
-      display: none;
-  }
-  #chex {
-      display: none;
-  }
-
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Istok Web', sans-serif;
+    box-sizing: border-box;
+}
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+.contain {
+    background-color: rgb(203, 255, 238);
+    float: right;
+    height: 25px;
+    width: 40px;
+    margin-top: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.menugo {
+    height: 3px;
+    width: 30px;
+    background-color: rgb(241, 75, 75);
+}
+.pop {
+    width: 51%;
+    height: 100vh;
+    background-color: rgb(31, 112, 145);
+    padding: 51px;
+    transform: translateX(-510px);
+    transition: 0.5s;
+}
+.pop li {
+    list-style-type: none;
+    border-bottom: 1px solid rgb(241, 75, 75);
+    padding: 30px 0;
+    text-align: center;
+}
+.showmenu {
+    transform: translateX(0);
+}
 footer {
     background-color: rgb(192, 211, 250);
 }
-
-  @media (max-width: 952px) {
-      label.menu{
-          font-size: 40px;
-          padding-left: 60px;
-      }
-      nav ul li a{
-          font-size: 20px;
-      }
-  }
-  @media (max-width: 858px) {
-      .chessclub {
-          display: block;
-      }
-      ul{
-          position: fixed;
-          width: 100%;
-          height: 100vh;
-          background: #2c3e50;
-          top: 80px;
-          left: -100%;
-          text-align: center;
-          transition: all .5s;
-      }
-      nav ul li{
-          display: block;
-          line-height: 30px;
-      }
-      nav ul li a {
-          font-size: 25px;
-      }
-      a:hover,a.act {
-        background: none;
-        color: #0082e6;
-      }
-      #chex:checked ~ ul {
-          left: 0;
-      }
-      
-  }
+.pop li:last-child {
+    border-bottom: none;
+}
+.pop li:first-child a{
+    font-weight: bold;
+}
+.pop li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 22px;
+    transition: font-weight 0.2s;
+}
+.pop li a:hover {
+    font-weight: bold;
+}
+@media screen and (min-width:1000px) {
+    .pop{
+        width: 500px;
+    }
+}
+@media screen and (max-width:600px) {
+    .pop li a {
+        font-size: 18px;
+    }
+}
