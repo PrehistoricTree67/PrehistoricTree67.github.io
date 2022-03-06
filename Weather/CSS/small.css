@@ -76,7 +76,7 @@ div {
     height: 100vh;
     background-color: rgb(31, 112, 145);
     padding: 51px;
-    transform: translateX(-510px);
+    transform: translateX(-500px);
     transition: 0.5s;
 }
 .pop li {

@@ -2,4 +2,9 @@
     .placeholder {
         background-color: rgb(126, 126, 126);
     }
+    body {
+        max-width: 860px;
+        margin: 0 auto;
+    }
+    
 }

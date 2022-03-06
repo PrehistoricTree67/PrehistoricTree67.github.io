@@ -1,7 +1,7 @@
-const hambutton = document.querySelector('contain');
-const mainnav = document.querySelector('.pop');
+var logo = document.querySelector('contain');
+var menu = document.querySelector('.pop');
 
-hambutton.addEventListener('click', function() {
+logo.addEventListener('click', function() {
     menu.classList.toggle('showmenu');
 });
 
@@ -11,4 +11,4 @@ var string = document.lastModified;
 
 let nLastModif = Date.parse(document.lastModified);
 
-document.body.appendChild(document.createElement("center")).innerText = "Last Updated:" + document.lastModified
+document.body.appendChild(document.createElement("center")).innerText = "Last Updated:" + document.lastModified;
