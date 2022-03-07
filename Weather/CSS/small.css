@@ -115,4 +115,10 @@ footer {
     .pop li a {
         font-size: 18px;
     }
+    html {
+        background-color: rgb(161, 146, 230);
+    }
+    body {
+        box-shadow: rgb(63, 71, 69);
+    }
 }
