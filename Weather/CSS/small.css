@@ -30,7 +30,7 @@ div {
   }
   header {
     background-color: rgb(192, 211, 250);
-    display: grid;
+    display: flex;
     align-content: center;
     justify-content: center;
     margin-bottom: 29px;
