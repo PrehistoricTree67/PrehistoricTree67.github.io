@@ -1,6 +1,6 @@
 @media only screen and (min-width: 25.4em) {
     .placeholder {
-        background-color: rgb(126, 126, 126);
+        background-color: rgb(255, 245, 230);
     }
     body {
         max-width: 860px;
@@ -13,6 +13,6 @@
     .summary {
         padding: 20px;
         margin: 20px;
-        border: dotted 3px;
+        border: dotted 3px rgb(2, 85, 60);
     }
 }
