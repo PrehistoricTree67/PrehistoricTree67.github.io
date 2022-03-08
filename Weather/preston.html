@@ -1,28 +1,27 @@
 <!DOCTYPE HTML>
 <html lang="en-us">
-    <head>
+    <head> 
         <meta charset="utf-8">
-        <meta name="Preston" content="Weather-site">
-        <meta name="author" content="Jonah Li">
+        <meta name="author" content="Preston Town">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Hammersmith+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Hammersmith+One&family=Istok+Web&family=Lobster&family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./CSS/small.css">
         <link rel="stylesheet" href="./CSS/medium.css">
-        <link rel="stylesheet" href="./CSS/large.css">
-        <script defer src="./js/preston.js"></script>
+        <link rel-="stylesheet" href="./CSS/large.css">
         <title>Preston Town</title>
     </head>
-    <body cz-shortcut-listen="true">
-        <div class="q" style="font-size: x-large; text-align: center; padding: 20px; background-color: rgb(244, 255, 233);">Earth Day
-        starts on Friday, April 22! Go Plant a tree, grow a Rainforest, and care for our Earth.</div>
+    <body>
+        <div class="q" style="font-size: x-large; text-align: center; padding: 20px; background-color:rgb(140, 245, 245);">
+            Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
+        </div>
         <header>
-            <div class="headsite">
-            <img src="./images/Thunder.png" class="logopic" width="140px">
-            <div class="webby">
-            <h1 id="site-title">The Weather Site</h1>
-            <i><p class="motto">Rainforest Weather Varies from Rainy to Sunny</p></i>
-            </div>
+            <div id="header">
+                <picture>
+                    <img class="logo" src="./images/Thunder.png" width="130px">
+                </picture>
+                <h1>Preston Idaho</h1>
+                <i><p>An Idaho that you will never forget</p></i>
             </div>
         </header>
         <div class="wrap">
@@ -32,7 +31,9 @@
                 <div class="menugo"></div>
             </div>
         </div>
+        <nav>
             <ul class="pop">
+                <li><a class="contain" href="#">Menu</a></li>
                 <li><a class="act" href="./index.html">Home</a></li>
                 <li><a href="./preston.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
@@ -40,64 +41,68 @@
                 <li><a href="#">Storm Center</a></li>
                 <li><a href="#">Gallery</a></li>
             </ul>
+        </nav>
         <main>
-            <div id="grid-head">
-            <h2 id="titlestory">Preston Town</h2>
-            <div class="banbox">
-            <img id="banner" src="./images/preston.jpg" width="990px"/>
-            <div class="movie">
-                <h3>
-                    Climate Change
-                </h3>
-                <p>
-                    <img src="./images/sunny-cloudy.webp" width="29px"/> 31°F | °C
-                </p>
-            </div>
-            </div>
-            <h2>5 Day Forecast</h2>
-            </div>
-            <div class="placeholder">
-                <div class="stretch">
-                    <div class="news">
-                        <span class="classical">Day 1</span>
-                        <img src="./images/rain.png" alt="icon" width="90px">
-                        <span class="music">Monday</span>
+            <div class="banner">
+                <picture>
+                    <img id="banpic" src="./images/preston.jpg" width="860px">
+                    <div class="summary">
+                        <h2></h2>
                     </div>
-                    <div class="news">
-                        <span class="classical">Day 2</span>
-                        <img src="./images/sunny-cloudy.webp" alt="icon" width="90px">
-                        <span class="music">Tuesday</span>
-                    </div>
-                    <div class="news">
-                        <span class="classical">Day 3</span>
-                        <img src="./images/snowy.png" alt="icon" width="90px">
-                        <span class="music">Wednesday</span>
-                    </div>
-                    <div class="news">
-                        <span class="classical">Day 4</span>
-                        <img src="./images/sunny-cloudy.webp" alt="icon" width="90px">
-                        <span class="music">Thursday</span>
-                    </div>
-                    <div class="news">
-                        <span class="classical">Day 5</span>
-                        <img src="./images/sunny-cloudy.webp" alt="icon" width="90px">
-                        <span class="music">Friday</span>
-                    </div>
-                    <div class="news">
-                        <span class="classical">Day 6</span>
-                        <img src="./images/snowy.png" alt="icon" width="90px">
-                        <span class="music">Saturday</span>
-                    </div>
-                    <div class="news">
-                        <span class="classical">Day 7</span>
-                        <img src="./images/sunny-cloudy.webp" alt="icon" width="90px">
-                        <span class="music">Sunday</span>
-                    </div>
+                </picture>
+                <h3>5 Day Forecast</h3>
+                <div id="weatherport">
+                    <section>
+                    <h4>Sunday</h4>
+                    <img id="icon" src="./images/sunny-cloudy.webp" width="90px">
+                    <p id="climate">Cloudy</p>
+                    </section>
+                </div>
+                <div id="weatherport">
+                    <section>
+                    <h4>Monday</h4>
+                    <img id="icon" src="./images/rain.png" width="90px">
+                    <p id="climate">Raining</p>
+                    </section>
+                </div>
+                <div id="weatherport">
+                    <section>
+                    <h4>Tuesday</h4>
+                    <img id="icon" src="./images/sunny-cloudy.webp" width="90px">
+                    <p id="climate">Cloudy</p>
+                    </section>
+                </div>
+                <div id="weatherport">
+                    <section>
+                    <h4>Wednesday</h4>
+                    <img id="icon" src="./images/rain.png" width="90px">
+                    <p id="climate">Raining</p>
+                    </section>
+                </div>
+                <div id="weatherport">
+                    <section>
+                    <h4>Thursday</h4>
+                    <img id="icon" src="./images/sunny-cloudy.webp" width="90px">
+                    <p id="climate">Cloudy</p>
+                    </section>
+                </div>
+                <div id="weatherport">
+                    <section>
+                    <h4>Friday</h4>
+                    <img id="icon" src="./images/sunny-cloudy.webp" width="90px">
+                    <p id="climate">Cloudy</p>
+                    </section>
+                </div>
+                <div id="weatherport">
+                    <section>
+                    <h4>Saturday</h4>
+                    <img id="icon" src="./images/snowy.png" width="90px">
+                    <p id="climate">Snowing</p>
+                    </section>
                 </div>
             </div>
-
             <div id="host">
-                <h1 id="activity">Preston, Idaho Lunar New Year</h1>
+                <h2 id="activity">Preston, Idaho Lunar New Year</h2>
                 <p class="placeholder">Preston, Idaho will be hosting a Lunar New Year for 15 days
                     starting from January 22nd all the way to February 6th. There will be food, drinks,
                     and some Chinese, Japanese, and Korean snacks and desserts on the table. We will pass
@@ -106,7 +111,7 @@
                     <img id="chinese" src="./images/chinese.jpg" width="290px">   <img id="dragon" src="./images/dragon.jpg" width="290px">
                 </p>
                 <div>
-                    <h1 id="contact">Contact Us</h1>
+                    <h2 id="contact">Contact Us</h2>
                     <p class="placeholder">186 W 2nd N St, Preston, ID<br><br><br>
                     Prestontown@byui.edu<br><br><br>
                 (412) 482-7884<br><br>
@@ -117,11 +122,5 @@
                 </div>
             </div>
         </main>
-        <footer>
-            &copy;The Weather Site | Attributions | Jonah (Yen-Xin) Li<br>
-            -<a href="https://my.byui.edu/ICS/" style="color:rgb(0, 102, 109)" target="_blank">BYU-Idaho Online</a>
-            <fieldset><span id="currentdate"></span></fieldset>
-        </footer>
-        <script src="./js/preston.js"></script>
     </body>
 </html>

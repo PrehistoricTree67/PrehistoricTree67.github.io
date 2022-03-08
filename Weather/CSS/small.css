@@ -1,124 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
-.placeholder {
-    display: block;
-    margin: 12px auto;
-    border: 2px dotted rgb(44, 0, 0);
-    padding: 17px;
-    background-color: rgb(234, 248, 248);
-    font-family: 'Fredoka', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Hammersmith+One&family=Istok+Web&family=Lobster&family=Nunito+Sans:wght@200&display=swap');
+#weatherport {
+
 }
-main {
-    display: block;
-}
-body {
-    font-size: 18px;
-    font-family: 'Istok Web', sans-serif;
-}
-h1 {
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  }
+  nav {
     font-family: 'Hammersmith One', sans-serif;
-}
-html {
-    color:rgb(3, 63, 55);
-}
-div {
-    display: block;
-}
-  .logopic {
-    position:absolute;
-    bottom: 480px;
-    left: 440px;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Hammersmith One'), local('Hammersmith One'), url(https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Hammersmith+One&family=Istok+Web&family=Lobster&family=Nunito+Sans:wght@200&display=swap) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
   }
-  header {
-    background-color: rgb(192, 211, 250);
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin-bottom: 29px;
-    margin-right: -200px;
+  nav a {
+    color: #345E08;
+    font-family: 'Hammersmith One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Hammersmith One'), local('Hammersmith One'), url(https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Hammersmith+One&family=Istok+Web&family=Lobster&family=Nunito+Sans:wght@200&display=swap) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
   }
-  #site-title {
-      margin-top: 49px;
-  }
-  .motto {
-      margin-top: 2px;
-      margin-left: 79px;
-      margin-bottom: 56px;
-  }
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Istok Web', sans-serif;
-    box-sizing: border-box;
+  
+  /* unvisited link */
+a:link {
+  color: #63923A;
 }
-.wrap {
-    width: 90%;
-    margin: 0 auto;
+
+/* visited link */
+a:visited {
+  color: #183D4E;
 }
-.contain {
-    background-color: rgb(203, 255, 238);
-    float: right;
-    height: 25px;
-    width: 40px;
-    margin-top: 29px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
+
+/* mouse over link */
+a:hover {
+  color: #f3deb0;
+  background-color: rgb(255, 176, 248);
 }
-.menugo {
-    height: 3px;
-    width: 30px;
-    background-color: rgb(241, 75, 75);
-}
-.pop {
-    width: 51%;
-    height: 100vh;
-    background-color: rgb(31, 112, 145);
-    padding: 51px;
-    transform: translateX(-500px);
-    transition: 0.5s;
-}
-.pop li {
-    list-style-type: none;
-    border-bottom: 1px solid rgb(241, 75, 75);
-    padding: 30px 0;
-    text-align: center;
-}
-.showmenu {
-    transform: translateX(0);
-}
-footer {
-    background-color: rgb(192, 211, 250);
-}
-.pop li:last-child {
-    border-bottom: none;
-}
-.pop li:first-child a{
-    font-weight: bold;
-}
-.pop li a {
-    color: aliceblue;
-    text-decoration: none;
-    font-size: 22px;
-    transition: font-weight 0.2s;
-}
-.pop li a:hover {
-    font-weight: bold;
-}
-@media screen and (min-width:1000px) {
-    .pop{
-        width: 500px;
-    }
-}
-@media screen and (max-width:600px) {
-    .pop li a {
-        font-size: 18px;
-    }
-    html {
-        background-color: rgb(161, 146, 230);
-    }
-    body {
-        box-shadow: rgb(63, 71, 69);
-    }
+
+/* selected link */
+a:active {
+  color: #afd38c;
+  background-color: rgb(228, 156, 222);
 }
