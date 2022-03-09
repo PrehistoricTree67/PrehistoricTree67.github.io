@@ -21,7 +21,7 @@
             <div class="headsite">
             <img src="./images/Thunder.png" class="logopic" width="130px">
             <div class="webby">
-            <h1 id="site-title">The Weather Site</h1>
+            <h1 id="site-title">Preston Weather Site</h1>
             <i><p class="motto">Rainforest Weather Varies from Rainy to Sunny</p></i>
             </div>
             </div>
@@ -45,31 +45,36 @@
             </ul>
         </nav>
         <main>
-            <h2>Preston Town</h2>
+            <h2 class="township">Preston Town</h2>
             <div class="summary">Weather Summary</div>
             <div class="summary">Article</div>
             <div class="summary">Contact Information</div>
-            <center><h2><b>Today</b></h2>
+            <center><h2 id="activity"><b>Today</b></h2>
             <p class="summary">Today is quite a sunny day with a 35°F.</p></center>
-            <img class="placeholder" src="./images/road.jpg" width="390px">
+            <center><img class="placeholder" src="./images/road.jpg" width="390px"></center>
             <div>
                 <center><h2 id="contact">Contact Us</h2></center>
                 <p class="placeholder">186 W 2nd N St, Preston, ID<br><br><br>
                 Prestontown@byui.edu<br><br><br>
             (412) 482-7884<br><br>
         <img id="location" src="./images/Screen Shot 2022-03-06 at 9.22.29 PM.png" width="260px"> </p>
-        <a href="https://www.pinterest.com/"><img id="social" src="./images/pinterest.jpg" width="40px"></a>
+        <center><a href="https://www.pinterest.com/"><img id="social" src="./images/pinterest.jpg" width="40px"></a>
         <a href="https://twitter.com/?lang=en"><img id="social" src="./images/Logo-Twitter-icon-transparent-PNG.png" width="40px"></a>
-        <a href="https://www.snapchat.com/"><img id="social" src="./images/snapchat-logo-png-0.png" width="45px"></a>
+        <a href="https://www.snapchat.com/"><img id="social" src="./images/snapchat-logo-png-0.png" width="45px"></a></center>
             </div>
         </div>
         </main>
         <footer>
-            &copy;The Weather Site | Attributions | Jonah (Yen-Xin) Li<br>
+            <center>&copy;The Weather Site | Attributions | Jonah (Yen-Xin) Li<br>
             -<a href="https://my.byui.edu/ICS/" style="color:rgb(0, 102, 109)" target="_blank">BYU-Idaho Online</a>
-            <fieldset><span id="currentdate"></span></fieldset>
+            <fieldset><span id="currentdate"></span></fieldset></center>
+            <center><div id="porby" style="color:rgb(5, 59, 59); font-family: 'Fredoka', sans-serif;"></div></center>
         </footer>
-        <script src="./js/preston.js"></script>
+        <script src="./js/preston.js">
+            {
+                    var date = new Date(document.lastModified);
+                    document.getElementById("porby").innerHTML = date;
+                }
+        </script>
     </body>
-    <script src="./js/preston.js"></script>
 </html>

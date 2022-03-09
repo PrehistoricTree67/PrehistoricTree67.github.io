@@ -1,6 +1,7 @@
 @media only screen and (min-width: 25.4em) {
     .placeholder {
         background-color: rgb(255, 245, 230);
+        font-family: 'Roboto', sans-serif;
     }
     body {
         max-width: 860px;
@@ -15,4 +16,31 @@
         margin: 20px;
         border: dotted 3px rgb(2, 85, 60);
     }
+    .logopic {
+        margin-left: 12%;
+        margin-right: 18%;
+    }
+    .township {
+        text-align: center;
+        margin-left: -90%;
+        margin-right: -50%;
+        font-family: 'Roboto', sans-serif;
+    }
+    #activity {
+        font-family: 'Signika Negative', sans-serif;
+    }
+    #contact {
+        font-family: 'Signika Negative', sans-serif;
+    }
+    #day {
+        font-family: 'Secular One', sans-serif;
+    }
+    #climate {
+        font-family: 'Archivo', sans-serif;
+    }
+    #chinese {
+        margin-left: 62%;
+        margin-right: 50%;
+    }
+    
 }

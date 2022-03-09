@@ -29,8 +29,8 @@ header {
   text-align: center;
 }
 #weatherport {
-    background-color:rgb(224, 252, 205);
-    border: 2px solid rgb(79, 114, 228);
+    background-color:rgb(203, 255, 247);
+    border: 2px solid rgb(0, 69, 82);
     padding: 3px;
     margin: 3px;
     border-radius: 12px;
@@ -41,6 +41,9 @@ header {
 }
 .weathercontainer {
   display: flex;
+  background-color: rgb(255, 234, 196);
+  border: 2px solid rgb(32, 3, 3);
+  padding: 12px;
 }
 #weatherport:hover, section:hover {
   opacity: 0.899;
@@ -125,4 +128,5 @@ a:active {
   text-align: center;
   margin-left: -90%;
   margin-right: -67%;
+  font-family: 'Roboto', sans-serif;
 }

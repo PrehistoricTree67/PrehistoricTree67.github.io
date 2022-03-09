@@ -61,49 +61,49 @@
                 <div class="weathercontainer">
                 <div id="weatherport">
                     <section>
-                    <h4>Sunday</h4>
+                    <h4 id="day">Sunday</h4>
                     <img id="icon" src="./images/sunny-cloudy.webp" width="90px">
                     <p id="climate">Cloudy</p>
                     </section>
                 </div>
                 <div id="weatherport">
                     <section>
-                    <h4>Monday</h4>
+                    <h4 id="day">Monday</h4>
                     <img id="icon" src="./images/rain.png" width="90px">
                     <p id="climate">Raining</p>
                     </section>
                 </div>
                 <div id="weatherport">
                     <section>
-                    <h4>Tuesday</h4>
+                    <h4 id="day">Tuesday</h4>
                     <img id="icon" src="./images/sunny-cloudy.webp" width="90px">
                     <p id="climate">Cloudy</p>
                     </section>
                 </div>
                 <div id="weatherport">
                     <section>
-                    <h4>Wednesday</h4>
+                    <h4 id="day">Wednesday</h4>
                     <img id="icon" src="./images/rain.png" width="90px">
                     <p id="climate">Raining</p>
                     </section>
                 </div>
                 <div id="weatherport">
                     <section>
-                    <h4>Thursday</h4>
+                    <h4 id="day">Thursday</h4>
                     <img id="icon" src="./images/sunny-cloudy.webp" width="90px">
                     <p id="climate">Cloudy</p>
                     </section>
                 </div>
                 <div id="weatherport">
                     <section>
-                    <h4>Friday</h4>
+                    <h4 id="day">Friday</h4>
                     <img id="icon" src="./images/sunny-cloudy.webp" width="90px">
                     <p id="climate">Cloudy</p>
                     </section>
                 </div>
                 <div id="weatherport">
                     <section>
-                    <h4>Saturday</h4>
+                    <h4 id="day">Saturday</h4>
                     <img id="icon" src="./images/snowy.png" width="90px">
                     <p id="climate">Snowing</p>
                     </section>
@@ -112,12 +112,12 @@
             </div>
             <div id="host">
                 <center><h2 id="activity">Preston, Idaho Lunar New Year</h2></center>
-                <p class="placeholder">Preston, Idaho will be hosting a Lunar New Year for 15 days
+                <p class="placeholder"> Preston, Idaho will be hosting a Lunar New Year for 15 days
                     starting from January 22nd all the way to February 6th. There will be food, drinks,
                     and some Chinese, Japanese, and Korean snacks and desserts on the table. We will pass
                     out the red envelopes that contains $5 to everyone at the party. We will start the 
-                    fireworks at 7 p.m. and will keep going for 2 weeks. <br><br>
-                    <img id="chinese" src="./images/chinese.jpg" width="290px">   <img id="dragon" src="./images/dragon.jpg" width="290px">
+                    fireworks at 7 p.m. and will keep going for 2 weeks.<br><br>
+                    <img id="chinese" src="./images/chinese.jpg" width="290px">   <img id="chinese" src="./images/dragon.jpg" width="290px">
                 </p>
                 <div>
                     <center><h2 id="contact">Contact Us</h2></center>
@@ -134,6 +134,13 @@
         <footer>
             <center><p>&copy;Preston Idaho Weather Site | Jonah (Yen-Xin) Li | WDD 230<br>
             <a href="https://www.byui.edu/">-BYU-Idaho.com</a></p></center>
+            <center><div id="porby" style="color:rgb(5, 59, 59); font-family: 'Fredoka', sans-serif;"></div></center>
+            <script>
+                {
+                    var date = new Date(document.lastModified);
+                    document.getElementById("porby").innerHTML = date;
+                }
+            </script>
         </footer></center>
     </body>
 </html>
