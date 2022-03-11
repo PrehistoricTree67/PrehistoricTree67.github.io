@@ -42,4 +42,18 @@
         margin-left: 62%;
         margin-right: 50%;
     }
+    body section.href {
+        position: absolute;
+        top: 257px;
+        right: 790px;
+        float: right;
+        background: radial-gradient(rgb(119, 48, 141));
+        background-color: rgb(255, 234, 190);
+        border: 1px solid rgb(63, 2, 2);
+        padding: 1.03rem;
+        box-shadow: 0 0 90px rgb(28, 102, 163);
+        opacity: 0.9;
+        width: 200px;
+        height: 225px;
+    }
 }
