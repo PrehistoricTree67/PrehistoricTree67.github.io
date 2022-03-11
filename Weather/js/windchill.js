@@ -3,7 +3,7 @@ function inPutoutPut() {
     let y = parseInt(document.getElementById('high').value);
     let g = parseInt(document.getElementById('humidity').value);
     let results = windChill(a, y, g);
-    document.getElementById('wind-speed').innerHTML = results;
+    document.getElementById('wind-speed').innerHTML = results + "•";
 }
 
 function windChill(tempFahren, mph){
