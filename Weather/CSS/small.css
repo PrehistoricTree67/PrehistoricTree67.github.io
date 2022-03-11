@@ -103,7 +103,8 @@ a:active {
 .work {
   position:absolute;
   top: 257px;
-  right: 860px;
+  right: 790px;
+  float: right;
   background: radial-gradient(rgb(28, 203, 247));
   background-color: rgb(190, 255, 255);
   border: 1px solid #000;
@@ -129,4 +130,35 @@ a:active {
   margin-left: -90%;
   margin-right: -67%;
   font-family: 'Roboto', sans-serif;
+}
+main figure.photo {
+  width: 50%;
+  margin: 0 0 0 4%;
+  float: right;
+}
+main figure.photo img {
+  width: 100%;
+}
+main figure.photo figcaption {
+  text-align: center;
+  font-size: .95rem;
+}
+main figure.allen {
+  width: 50%;
+  margin: 4% 0 0 0;
+  float: left;
+}
+main figure.allen img {
+  width: 94%;
+}
+main figure.allen figcaption {
+  text-align: center;
+  font-size: .89rem;
+}
+figure.waterfall {
+  width: 71.41%;
+  margin: 0 0 0 0;
+}
+figure.waterfall img{
+  width: 140%;
 }
