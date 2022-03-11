@@ -102,7 +102,7 @@ a:active {
 }
 .work {
   position:absolute;
-  top: 257px;
+  top: 271px;
   right: 790px;
   float: right;
   background: radial-gradient(rgb(28, 203, 247));
@@ -165,4 +165,9 @@ figure.waterfall img{
 header.webby {
   float: left;
   margin: 0 2% 0 0;
+}
+.giraffe:after {
+  content: "";
+  display: table;
+  clear: both;
 }
