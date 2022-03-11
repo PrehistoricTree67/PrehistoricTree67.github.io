@@ -162,3 +162,7 @@ figure.waterfall {
 figure.waterfall img{
   width: 140%;
 }
+header.webby {
+  float: left;
+  margin: 0 2% 0 0;
+}
