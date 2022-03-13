@@ -59,11 +59,10 @@
         <main>
             <div class="banner">
                 <picture class="Apoc">
-                    <source media="(max-width: 200px)" srcset="images/preston.jpg">
-                    <source media="(max-width: 500px)" srcset="images/preston.jpg">
-                    <source media="(max-width: 800px)" srcset="images/preston.jpg">
-                    <source media="(max-width: 1100px)" srcset="images/preston.jpg">
-                    <img id="banpic" src="./images/preston.jpg" width="860px" size="50vw">
+                    <source media="(max-width: 200px)" srcset="images/0.png 200w">
+                    <source media="(max-width: 500px)" srcset="images/pic1.png 500w">
+                    <source media="(max-width: 800px)" srcset="images/pic3.png 800w">
+                    <img id="banpic" src="./images/pic3.png" width="860px" size="50vw">
                 </picture>
                 <div class="work">
                     <h2 class="today">Today's Weather</h2>
@@ -126,25 +125,26 @@
                 </div>
             </div>
             </div>
-            <div id="host">
+            <div class="placeholder" id="year">
                 <center><h2 id="activity">Preston, Idaho Lunar New Year</h2></center>
-                <p class="placeholder"> Preston, Idaho will be hosting a Lunar New Year for 15 days
+                <p class="despacito"> Preston, Idaho will be hosting a Lunar New Year for 15 days
                     starting from January 22nd all the way to February 6th. There will be food, drinks,
                     and some Chinese, Japanese, and Korean snacks and desserts on the table. We will pass
                     out the red envelopes that contains $5 to everyone at the party. We will start the 
                     fireworks at 7 p.m. and will keep going for 2 weeks.<br><br>
-                    <img id="chinese" src="./images/chinese.jpg" width="290px">   <img id="chinese" src="./images/dragon.jpg" width="290px">
                 </p>
-                <div>
+                <img id="chinese" src="./images/chinese.jpg" width="290px">   <img id="chinese" src="./images/dragon.jpg" width="290px">
+                </div>
+                <div class="placeholder" id="waxy">
                     <center><h2 id="contact">Contact Us</h2></center>
-                    <p class="placeholder">186 W 2nd N St, Preston, ID<br><br><br>
+                    <p>186 W 2nd N St, Preston, ID<br><br><br>
                     Prestontown@byui.edu<br><br><br>
                 (412) 482-7884<br><br>
-            <img id="location" src="./images/Screen Shot 2022-03-06 at 9.22.29 PM.png" width="260px"> </p>
+            </p>
+            <img id="location" src="./images/Screen Shot 2022-03-06 at 9.22.29 PM.png" width="260px"> 
             <center><a href="https://www.pinterest.com/"><img id="social" src="./images/pinterest.jpg" width="40px"></a>
             <a href="https://twitter.com/?lang=en"><img id="social" src="./images/Logo-Twitter-icon-transparent-PNG.png" width="40px"></a>
             <a href="https://www.snapchat.com/"><img id="social" src="./images/snapchat-logo-png-0.png" width="45px"></a>
-                </div>
             </div>
         </main>
         <footer>
@@ -158,5 +158,6 @@
                 }
             </script>
         </footer></center>
+        <script type="module" src="./js/preston.js"></script>
     </body>
 </html>

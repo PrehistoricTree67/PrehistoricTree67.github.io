@@ -38,10 +38,6 @@
     #climate {
         font-family: 'Archivo', sans-serif;
     }
-    #chinese {
-        margin-left: 62%;
-        margin-right: 50%;
-    }
     body section.href {
         position: absolute;
         top: 257px;
@@ -55,5 +51,11 @@
         opacity: 0.9;
         width: 200px;
         height: 225px;
+    }
+    #year {
+
+    }
+    #waxy {
+        
     }
 }
