@@ -1,11 +1,12 @@
 function inPutoutPut() {
-    let a = parseInt(document.getElementById('wcf').value);
-    let y = parseInt(document.getElementById('high').value);
-    let g = parseInt(document.getElementById('humidity').value);
-    let results = windChill(a, y, g);
-    document.getElementById('wind-speed').innerHTML = results + "•";
+    let o = parseInt(document.getElementById('high').innerText);
+    let a = parseInt(document.getElementById('wind-speed').innerText);
+    let w = parseInt(document.getElementById('currently').innerText);
+    let u = parseInt(document.getElementById('humidity').innerText);
+    let results = windChill(a, w, o, u);
+    document.getElementById('wcf').innerHTML = results.toFixed(0) + "°" + "F";
 }
-
+inPutoutPut();
 function windChill(tempFahren, mph){
     let t = tempFahren;
     let s = mph;
