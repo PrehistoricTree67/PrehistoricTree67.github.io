@@ -27,14 +27,28 @@
             </div>
         </header>
         <picture class="franklin">
-            <source media="(max-width: 200px)" srcset="images/0.png">
-            <source media="(max-width: 500px)" srcset="images/pic1.png">
-            <source media="(max-width: 800px)" srcset="images/pic3.png">
-            <img src="./images/franklinOriginal.jpeg" alt="pic" width="860px">
+            <img src="./images/franklinOriginal.jpeg" alt="pic" width="860px"
+            srcset="images/geesepark.jpg 90w, images/fishes.jpg 300w, images/rainbowfish.jpg 600w">
         </picture>
         <section id="sum">
-            <div id="weathtitle">Weather Summary</div>
-            
+            <div id="weathtitle"><h2>Weather Summary</h2>
+                <p id="pacito">
+                    Currently:
+                    <span id="des"></span>
+                </p>
+                <p id="pacito">
+                    Wind Chill:
+                    <span id="des"></span>
+                </p>
+                <p id="pacito">
+                    Humidity:
+                    <span id="des"></span>
+                </p>
+                <p id="pacito">
+                    Wind Speed:
+                    <span id="des"></span>
+                </p>
+            </div>
         </section>
         <div class="wrap">
             <div class="contain">
@@ -58,9 +72,6 @@
         <main>
             <div class="banner">
                 <picture class="Apoc">
-                    <source media="(max-width: 200px)" srcset="images/0.png 200w">
-                    <source media="(max-width: 500px)" srcset="images/pic1.png 500w">
-                    <source media="(max-width: 800px)" srcset="images/pic3.png 800w">
                     <img id="banpic" src="./images/preston.jpg" width="860px" size="50vw">
                 </picture>
                 <div class="work">
@@ -157,6 +168,7 @@
                 }
             </script>
         </footer></center>
+        <script type="module" src="./js/windchill.js"></script>
         <script type="module" src="./js/preston.js"></script>
     </body>
 </html>

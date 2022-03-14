@@ -52,4 +52,15 @@
         width: 200px;
         height: 225px;
     }
+    #sum {
+        position: absolute;
+        border: 1px solid rgb(117, 17, 156);
+        background: radial-gradient(rgb(247, 151, 41));
+        background-color: beige;
+        padding: 1.20rem;
+        box-sizing: border-box;
+        box-shadow: 0 0 88px rgb(36, 2, 2);
+        top: 260px;
+        right: 880px;
+    }
 }
