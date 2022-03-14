@@ -12,6 +12,10 @@ header {
   background-color: azure;
 }
 .placeholder {
+  display: grid;
+  grid-template-columns: 200px 250px;
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 20px;
   background-color: rgb(210, 255, 249);
   border: dashed 3px;
   padding: 10px;
@@ -102,7 +106,7 @@ a:active {
 }
 .work {
   position:absolute;
-  top: 1136px;
+  top: 920px;
   right: 790px;
   float: right;
   background: radial-gradient(rgb(28, 203, 247));
@@ -178,4 +182,16 @@ figure.franklin {
 }
 figure.franklin img {
   width: 140%;
+}
+#waxy {
+    display: flex;
+}
+#chinese {
+  grid-column: 1 / -1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+#dragon {
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
