@@ -1,4 +1,4 @@
-@media only screen and (min-width: 25.4em) {
+@media only screen and (min-width: 35.4em) {
     .placeholder {
         background-color: rgb(255, 245, 230);
         font-family: 'Roboto', sans-serif;
@@ -41,8 +41,7 @@
     }
     body section.href {
         position: absolute;
-        top: 257px;
-        right: 790px;
+        top: 357px;
         float: right;
         background: radial-gradient(rgb(119, 48, 141));
         background-color: rgb(255, 234, 190);
@@ -62,6 +61,5 @@
         box-sizing: border-box;
         box-shadow: 0 0 88px rgb(36, 2, 2);
         top: 260px;
-        right: 880px;
     }
 }
