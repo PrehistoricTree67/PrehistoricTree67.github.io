@@ -78,4 +78,7 @@
         grid-row: 1;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 21px 40px;
     }
+    html {
+        background-color: rgb(220, 255, 255);
+      }
 }
