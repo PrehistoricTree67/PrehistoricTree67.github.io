@@ -62,4 +62,14 @@
         box-shadow: 0 0 88px rgb(36, 2, 2);
         top: 260px;
     }
-}
+    main figure.pic {
+        width: 40%;
+        border: 1px rgb(36, 35, 35) solid;
+      }
+      main figure.pic img {
+        width: 100%;
+      }
+      main figure.pic video {
+        width: 100%;
+      }
+    }
