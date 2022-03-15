@@ -1,6 +1,12 @@
-const hambutton = document.querySelector('.contain');
-const mainnav = document.querySelector('.pop');
+const hamburger = document.querySelector(".wrap");
+const navMenu = document.querySelector(".pop");
 
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
-window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
 
+document.querySelectorAll(".act").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}))

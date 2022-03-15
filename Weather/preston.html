@@ -28,7 +28,7 @@
         </header>
         <picture class="franklin">
             <img src="./images/franklinOriginal.jpeg" alt="pic" width="860px"
-            srcset="images/franklinOriginal.gif, images/franklinOriginal2.gif, images/franklinOriginal3.gif" >
+            srcset="images/franklinOriginal.gif, images/franklinOriginal2.gif, images/franklinOriginal3.gif">
         </picture>
         <section id="sum">
             <div id="weathtitle"><h2 id="penguin">Weather Summary</h2>
@@ -50,29 +50,27 @@
                 </p>
                 <p>
                     Wind Speed:
-                    <span id="wind-speed">8 mph</span>
+                    <span id="wind-speed">9 mph</span>
                 </p>
             </div>
         </section>
-        <div class="wrap">
-            <div class="contain">
-                <div class="menugo"></div>
-                <div class="menugo"></div>
-                <div class="menugo"></div>
-            </div>
-        </div>
-        <nav>
+        <nav class="navbar">
+            <li><a class="contain" href="#">Menu</a></li>
             <ul class="pop">
-                <li><a class="contain" href="#">Menu</a></li>
-                <li><a class="act" href="./index.html">Home</a></li>
-                <li><a href="./preston.html">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>
-                <li><a href="#">Storm Center</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="./index2.html">Portal</a></li>
+                <li class="nav-item"><a class="act" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="act" href="./preston.html">Preston</a></li>
+                <li class="nav-item"><a class="act" href="#">Soda Springs</a></li>
+                <li class="nav-item"><a class="act" href="#">Fish Haven</a></li>
+                <li class="nav-item"><a class="act" href="#">Storm Center</a></li>
+                <li class="nav-item"><a class="act" href="#">Gallery</a></li>
+                <li class="nav-item"><a class="act" href="./index2.html">Portal</a></li>
             </ul>
         </nav>
+        <div class="wrap">
+            <span class="contain"></span>
+            <span class="contain"></span>
+            <span class="contain"></span>
+        </div>
         <main>
             <div class="banner">
                 <picture class="Apoc">
@@ -80,11 +78,21 @@
                 </picture>
                 <div class="work">
                     <h2 class="today">Today's Weather</h2>
-                    <p id="pressy">Current Weather: <b><span>34°F</span></b></p>
-                    <p id="pressy">Wind Chill: <b><span>25°F</span></b></p>
-                    <p id="pressy">Dewpoint: <b><span>28°F</span></b></p>
-                    <p id="pressy">Visibility: <b><span>1.24 mi</span></b></p>
-                    <p id="pressy">Wind Speed: <b><span>14 mph</span></b></p>
+                    <p id="pressy">Current Weather: 
+                        <span>34°F</span>
+                    </p>
+                    <p id="pressy">Wind Chill:
+                        <span>25°F</span>
+                    </p>
+                    <p id="pressy">Dewpoint: 
+                        <span>28°F</span>
+                    </p>
+                    <p id="pressy">Visibility: 
+                        <span>1.24 mi</span>
+                    </p>
+                    <p id="pressy">Wind Speed: 
+                        <span>20 mph</span>
+                    </p>
                 </div>
                 <h3 class="forecast">5 Day Forecast</h3>
                 <div class="weathercontainer">
@@ -172,7 +180,7 @@
                 }
             </script>
         </footer></center>
-        <script type="module" src="./js/windchill.js"></script>
-        <script type="module" src="./js/preston.js"></script>
+        <script src="./js/windchill.js"></script>
+        <script src="./js/preston.js"></script>
     </body>
 </html>

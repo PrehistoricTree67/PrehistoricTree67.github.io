@@ -3,7 +3,7 @@ function inPutoutPut() {
     let a = parseInt(document.getElementById('wind-speed').innerText);
     let w = parseInt(document.getElementById('currently').innerText);
     let u = parseInt(document.getElementById('humidity').innerText);
-    let results = windChill(a, w, o, u);
+    let results = windChill(o, a, w, u);
     document.getElementById('wcf').innerHTML = results.toFixed(0) + "°" + "F";
 }
 inPutoutPut();
