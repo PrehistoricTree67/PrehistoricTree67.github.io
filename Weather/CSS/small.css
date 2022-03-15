@@ -106,7 +106,7 @@ a:active {
 }
 .work {
   position:absolute;
-  top: 58rem;
+  top: 43.2rem;
   float: right;
   background: radial-gradient(rgb(28, 203, 247));
   background-color: rgb(190, 255, 255);
@@ -207,4 +207,22 @@ figure.franklin img {
   box-sizing: border-box;
   box-shadow: 0 0 88px rgb(36, 2, 2);
   top: 390px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  color: #d7ffb5;
+  text-decoration: none;
+}
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
