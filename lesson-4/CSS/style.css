@@ -53,3 +53,6 @@ main picture.camels img {
     margin-top: 10px;
     box-shadow: 8px 7px 5px #444;
 }
+footer {
+    font-family: 'Roboto', sans-serif;
+}
