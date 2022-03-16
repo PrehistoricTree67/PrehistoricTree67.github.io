@@ -11,6 +11,6 @@ document.querySelectorAll(".act").forEach(n => n.addEventListener("click", () =>
     navMenu.classList.remove("active");
 }))
 
-if(new Date().getDay()!= 3) {
-    document.getElementsByClassName("q").style.display = "none";
+if(new Date().getDay()!= 6) {
+    document.getElementById("days").style.display = "none";
 }
