@@ -6,7 +6,8 @@ main {
 }
 .lax {
     text-align: center;
-    font-family: 'Bungee', cursive;
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(73, 49, 4);
 }
 main picture {
     width: 40%;
@@ -16,4 +17,39 @@ main picture img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+main picture.zodiac img{
+    width: 35%;
+    margin-top: -20px;
+    box-shadow: 8px 7px 5px #444;
+}
+main picture.monster img {
+    width: 35%;
+    margin-top: 10px;
+    box-shadow: 8px 7px 5px #444;
+}
+main picture.peacock img {
+    width: 35%;
+    margin-top: 10px;
+    box-shadow: 8px 7px 5px #444;
+}
+main picture.octopi img {
+    width: 35%;
+    margin-top: 10px;
+    box-shadow: 8px 7px 5px #444;
+}
+main picture.viewCedar img {
+    width: 35%;
+    margin-top: 10px;
+    box-shadow: 8px 7px 5px #444;
+}
+main picture.cedarView img {
+    width: 35%;
+    margin-top: 10px;
+    box-shadow: 8px 7px 5px #444;
+}
+main picture.camels img {
+    width: 35%;
+    margin-top: 10px;
+    box-shadow: 8px 7px 5px #444;
 }
