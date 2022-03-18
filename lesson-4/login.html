@@ -3,5 +3,121 @@
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Login">
+        <title>Login Account HTML</title>
+        <style>
+            html {
+                box-sizing: border-box;
+                font-size: 20px;
+                line-height: 1.6;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: rgb(61, 57, 4);
+            }
+            *, *::before, *:after {
+                box-sizing: inherit;
+                padding: 0;
+                margin: 0;
+            }
+            main{
+                margin: 1rem auto;
+                width: 90%;
+                max-width: 1000px;
+            }
+            /*******
+              Form
+            ********/
+            select, option, input, label, button {
+                padding: 0.2rem 1rem;
+                font-size: 1.2rem;
+                color:rgb(226, 131, 43);
+            }  
+            .form {
+                padding: 0.5rem 0;
+                display: flex;
+                flex-direction: column;
+            }
+            .form label {
+                display: none;
+            }
+            .form input,
+            .form select,
+            .form textarea {
+                flex-basis: 100%;
+            }
+            .form button {
+
+            }
+            /*****************
+              Media Queries
+            *****************/
+            @media all and (min-width: 500px) {
+                .form{
+
+                }
+                .form label {
+                    display: block;
+                }
+                .form input,
+                .form select,
+                .form textarea {
+
+                }
+                .form button {
+
+                }
+            }
+            @media all and (min-width: 600px) {
+                .form{
+                    flex-direction: row;
+                }
+                .form label {
+                    flex-basis: 10rem;
+                    flex-grow: 0;
+                    flex-shrink: 0;
+                }
+                .form input,
+                .form select,
+                .form textarea {
+                    flex-basis: 0;
+                    flex-grow: 1;
+                    flex-shrink: 1;
+                }
+                .form button {
+                    margin-left: 9rem;
+                }
+            }
+        </style>
     </head>
+    <body>
+        <main>
+            <form name="my-form" action="#" method="get">
+                <div class="form">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="username">
+                </div>
+                <div class="form">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="email" required>
+                </div>
+                <div class="form">
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" name="pass" placeholder="Password" required>
+                </div>
+                <div class="form">
+                    <label for="domain">Domain</label>
+                    <select id="domain" name="domain">
+                        <option value="facebook">Facebook</option>
+                        <option value="twitter">Twitter</option>
+                        <option value="instagram">Instagram</option>
+                        <option value="linkedin">LinkedIn</option>
+                        <option value="github">Github</option>
+                        <option value="byu-idaho">BYU-Idaho</option>
+                        <option value="lds-business-school">LDS Business School</option>
+                    </select>
+                </div>
+                <div class="form">
+                    <button id="btnSend">Send</button>
+                </div>
+            </form>
+        </main>
+    </body>
 </html>
