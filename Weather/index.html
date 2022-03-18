@@ -13,7 +13,7 @@
         <title>Home</title>
     </head>
     <body cz-shortcut-listen="true">
-        <div class="q" style="font-size: x-large; text-align: center; padding: 20px; background-color:rgb(173, 255, 255);">
+        <div class="q" id="days" style="font-size: x-large; text-align: center; padding: 20px; background-color:rgb(173, 255, 255);">
             Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
         </div>
         <header class="giraffe">
@@ -28,8 +28,10 @@
         <div>
             <figure class="waterfall">
                 <picture class="Apoc1">
-                    <img src="./images/niagarawaterfalls.jpg" srcset="images/waterfall.gif, 
-                    images/waterfall2.gif, images/waterfall3.gif">
+                    <source srcset="/weather/images/waterfall.gif" media="(min-width:1060px)">
+                    <source srcset="/weather/images/waterfall2.gif" media="(min-width:950px)">
+                    <source srcset="/weather/images/waterfall3.gif" media="(min-width:730px)">
+                    <img src="./images/niagarawaterfalls.jpg">
                 </picture>
             </figure>
             <section href="./js/windchill.js" class="href">
@@ -56,8 +58,8 @@
             </section>
         </div>
         <nav class="navbar">
-            <li><a class="contain" href="#">Menu</a></li>
             <ul class="pop">
+            <li><a class="contain" href="#">Menu</a></li>
                 <li class="nav-item"><a class="act" href="./index.html">Home</a></li>
                 <li class="nav-item"><a class="act" href="./preston.html">Preston</a></li>
                 <li class="nav-item"><a class="act" href="#">Soda Springs</a></li>
@@ -116,8 +118,8 @@
             <p class="summary">Today is quite a sunny day with a 35°F.</p></center>
             <center><img class="placeholder" src="./images/road.jpg" width="390px"></center>
             <div class="placeholder" id="waxy">
-                <center><h2 id="contact">Contact Us</h2></center>
                 <img id="location" src="./images/Screen Shot 2022-03-06 at 9.22.29 PM.png" width="260px"> 
+                <h2 id="contact">Contact Us</h2>
                 <p>186 W 2nd N St, Preston, ID<br><br><br>
                 Prestontown@byui.edu<br><br><br>
             (412) 482-7884<br><br></p>

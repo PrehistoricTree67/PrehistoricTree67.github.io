@@ -1,15 +1,13 @@
-const hamburger = document.querySelector(".wrap");
-const navMenu = document.querySelector(".pop");
+const hambutton = document.querySelector(".contain");
+const mainnav = document.querySelector(".pop")
 
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})
+hambutton.addEventListener('click', () =>
+{mainnav.classList.toggle('responsive')},
+false);
 
-document.querySelectorAll(".act").forEach(n => n.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-}))
+window.onresize = () => {if
+(window.innerWidth > 760)
+mainnav.classList.remove('responsive')};
 
 if(new Date().getDay()!= 6) {
     document.getElementById("days").style.display = "none";
