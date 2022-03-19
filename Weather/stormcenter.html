@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="storm-page">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Hammersmith+One&family=Istok+Web&family=Lobster&family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./CSS/large.css">
+        <link rel="stylesheet" href="./CSS/medium.css">
+        <link rel="stylesheet" href="./CSS/small.css">
+        <title>Storm Center Page</title>
+    </head>
+    <body>
+        <div class="q" id="days" style="font-size: x-large; color: rgb(255, 255, 255); text-align: center; padding: 20px; background-color:rgb(6, 77, 158);">
+            Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
+        </div>
+        <header class="giraffe">
+            <div class="headsite">
+                <picture>
+                    <img class="logopic" src="./images/Thunder.png" width="130px">
+                </picture>
+                <div class="webby">
+                <h1 id="site-title">Storm Center</h1>
+                <i><p class="motto">Contact and Report to the Weather Center</p></i>
+                </div>
+            </div>
+        </header>
+        <nav class="navbar">
+            <ul class="pop">
+            <li><a class="contain" href="#">Menu</a></li>
+                <li class="nav-item"><a class="act" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="act" href="./preston.html">Preston</a></li>
+                <li class="nav-item"><a class="act" href="#">Soda Springs</a></li>
+                <li class="nav-item"><a class="act" href="#">Fish Haven</a></li>
+                <li class="nav-item"><a class="act" href="./stormcenter.html">Storm Center</a></li>
+                <li class="nav-item"><a class="act" href="./gallery-7.html">Gallery</a></li>
+                <li class="nav-item"><a class="act" href="./index2.html">Portal</a></li>
+            </ul>
+        </nav>
+        <main id="fillout">
+    <fieldset>
+        <legend>Application Form</legend>
+
+        <label class="up">First Name* <input type="text" name="fname" min="5" required></label>
+
+        <label class="up">Last Name* <input type="text" name="lname" min="5" required></label>
+
+        <label class="up">Email <input type="email" name="email" placeholder="somebody@byui.edu"></label>
+
+        <label class="up">Phone Number <input type="tel" name="phone" placeholder="(908)-455-9087" required></label>
+
+        <label class="up">Zip Code <input type="number" name="code" placeholder="15241" required></label> 
+    </fieldset>
+    
+    <fieldset>
+        <legend>Date of the Weather</legend>
+
+        <label class="downs">Storm Date <input type="date" name="completeDate"> </label>
+
+        <label class="downs">Storm Type <select>
+            <option>Select Option &#9662;</option>
+            <option>Flash Flood</option>
+            <option>Hurricane</option>
+            <option>Hail</option>
+            <option>Thunderstorm</option>
+            <option>Tornado</option>
+        </select> </label>
+
+        <label class="downs" for="rating">Storm Severity Rate &nbsp; &nbsp; &nbsp;
+            <input type="range" value="5" min="0.01" max="100" step="1"
+            list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <span>5</span>
+        </label>
+
+        <label class="downs">Storm Region <select>
+            <option>Select Region &#9662;</option>
+            <option value="preston">Preston</option>
+            <option value="soda-springs">Soda Springs</option>
+            <option value="fish-haven">Fish Haven</option>
+        </select></label>
+    </fieldset>
+        </main>   
+        <footer>
+            <center><p>&copy;Preston Idaho Weather Site | Jonah (Yen-Xin) Li | WDD 230<br>
+            <a href="https://www.byui.edu/">-BYU-Idaho.com</a></p></center>
+            <center><div id="porby" style="color:rgb(5, 59, 59); font-family: 'Fredoka', sans-serif;"></div></center>
+            <script>
+                {
+                    var date = new Date(document.lastModified);
+                    document.getElementById("porby").innerHTML = date;
+                }
+            </script>
+        </footer></center>
+        <script src="./js/windchill.js"></script>
+        <script src="./js/preston.js"></script>
+    </body>
+</html>
