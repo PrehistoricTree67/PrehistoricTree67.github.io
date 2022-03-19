@@ -330,6 +330,14 @@ form label.up input:required:valid {
   border-right:blue solid 6px;
 }
 
+#notify {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-family: 'Rubik', sans-serif;
+}
+
 @media(max-width: 768px) {
   .wrap{
     display: block;
