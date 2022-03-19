@@ -56,7 +56,7 @@
     
     <fieldset>
         <legend>Date of the Weather</legend>
-
+        <div>Big or small weather</div>
         <label class="downs">Storm Date <input type="date" name="completeDate"> </label>
 
         <label class="downs">Storm Type <select>
@@ -83,19 +83,31 @@
     </fieldset>
 
     <fieldset>
-        <legend>User in-danger Level</legend>
-        <label><input type="radio" name="audience" value="yes">Yes</label>
-        <label><input type="radio" name="audience" value="maybe">Maybe</label>
-        <label><input type="radio" name="audience" value="yes">No</label>
+        <legend>User In-Danger Level</legend>
+        <div>Weather severity</div>
+        <label class="downs"><input type="radio" name="audience" value="yes">Yes</label>
+        <label class="downs"><input type="radio" name="audience" value="maybe">Maybe</label>
+        <label class="downs"><input type="radio" name="audience" value="yes">No</label>
 
-        <div>Additional info or comments:
-            <textarea></textarea>
+        <div>Additional info or comments:<br>
+            <textarea row="850" cols="50"></textarea>
         </div>
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" class="btn">
     </fieldset>
     </form>
         </main>   
+        <div class="placeholder" id="waxy"> 
+            <img id="location" src="./images/Screen Shot 2022-03-06 at 9.22.29 PM.png" width="260px"> 
+            <center><h2 id="contact">Contact Us</h2></center>
+            <p>186 W 2nd N St, Preston, ID<br><br><br>
+            Prestontown@byui.edu<br><br><br>
+        (412) 482-7884<br><br>
+    </p>
+    <center><a href="https://www.pinterest.com/"><img id="social" src="./images/pinterest.jpg" width="40px"></a>
+    <a href="https://twitter.com/?lang=en"><img id="social" src="./images/Logo-Twitter-icon-transparent-PNG.png" width="40px"></a>
+    <a href="https://www.snapchat.com/"><img id="social" src="./images/snapchat-logo-png-0.png" width="45px"></a>
+    </div>
         <footer>
             <center><p>&copy;Preston Idaho Weather Site | Jonah (Yen-Xin) Li | WDD 230<br>
             <a href="https://www.byui.edu/">-BYU-Idaho.com</a></p></center>

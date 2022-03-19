@@ -259,6 +259,77 @@ a {
   background-color: rgb(250, 204, 190);
 }
 
+form fieldset {
+  margin: 3rem 0;
+  border: 1px solid #980;
+  border-radius: 12px;
+  padding: .6rem 3%;
+}
+
+form legend {
+  color: rgb(59, 2, 59);
+  margin: 0 2rem;
+  padding: 0 .5rem;
+  font-family: 'Lobster', cursive;
+  font-size: 27px;
+}
+
+form label.up, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #183D4E;
+  font-size: .9rem;
+}
+
+form div {
+  font-family: 'Signika Negative', sans-serif;
+}
+
+form label.up input, form label.up select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 2px #452;
+  border-radius: 5px;
+  padding: .76rem;
+  color:rgb(4, 80, 80);
+  width: 100%;
+  max-width: 20rem;
+  background-color: #bceaff;
+}
+
+form label.up {
+  font-family: 'Fredoka', sans-serif, bold;
+  font-size: 14px;
+}
+
+form label.downs {
+  display: block;
+  padding: .75rem 0;
+  color: rgb(59, 53, 1);
+  font-family: 'Archivo', sans-serif;
+  font-size: 14px;
+}
+
+form input.btn {
+  border: none;
+  background-color: firebrick;
+  color: #bceaff;
+  border-radius: 1rem;
+  padding: .76rem 1.6rem;
+  margin: 0 0 3rem 2%;
+  width: 97%;
+  max-width: 20%;
+}
+
+form label.up input:required {
+  border-right: crimson solid 6px;
+}
+
+form label.up input:required:valid {
+  border-right:blue solid 6px;
+}
+
 @media(max-width: 768px) {
   .wrap{
     display: block;

@@ -110,7 +110,7 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
-form.label.top input:required {
+form label.top input:required {
     border-left: brown solid 6px;
 }
 

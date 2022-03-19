@@ -81,4 +81,7 @@
     html {
         background-color: rgb(220, 255, 255);
       }
+      form label.downs {
+          padding: .6rem 0;
+      }
 }
