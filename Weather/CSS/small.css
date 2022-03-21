@@ -15,8 +15,8 @@ header {
 .upperstclair {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 20px;
-  padding: 20px;
+  grid-gap: 28px;
+  padding: 29px;
 }
 
 .placeholder {
