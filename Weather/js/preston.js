@@ -25,12 +25,25 @@ fetch(requestURL)
             let card = document.createElement('section');
             let h2 =document.createElement('h2');
             h2.textContent = towns[t].name;
-            let yearFounded =document.createElement('p');
-            yearFounded.textContent = towns[t].yearFound;
-            image.setAttribute('src', towns[t].photo);
-
+            let averageRainfall = document.createElement('p');
+            averageRainfall.textContent = "Average Rainfall:" + ' ' + towns[t].averageRainfall;
+            let motto = document.createElement('p');
+            motto.textContent = towns[t].motto;
+            let events = document.createElement('p');
+            events.textContent = "Events:" + ' ' + towns[t].events;
+            let yearFounded = document.createElement('p');
+            yearFounded.textContent = "Year Founded:" + ' ' + towns[t].yearFounded;
+            let currentPopulation = document.createElement('p');
+            currentPopulation = "Current Population:" + ' ' + towns[t].currentPopulation;
+            let photo = document.createElement('img');
+            photo.setAttribute('src', towns[t].photo);
+            photo.setAttribute('alt', towns[t].name);
             card.appendChild(h2);
+            card.appendChild(motto);
             card.appendChild(yearFounded);
+            card.append(averageRainfall);
+            card.append(currentPopulation);
+            card.append(events);
             card.append(photo);
             document.querySelector('div.upperstclair').appendChild(card);
         }
