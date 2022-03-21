@@ -14,9 +14,25 @@ header {
 
 .upperstclair {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   grid-gap: 28px;
   padding: 29px;
+}
+
+.idaho {
+  width: 280px;
+}
+section p {
+  margin: 7px 0;
+}
+.zootopia {
+  background-color: bisque;
+  text-align: center;
+}
+.zootopia:hover {
+  box-shadow: 5px 5px 4px 4px #999;
+  background-color: #4d0441;
+  color: rgb(255, 254, 254);
 }
 
 .placeholder {
