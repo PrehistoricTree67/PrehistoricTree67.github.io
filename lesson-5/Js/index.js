@@ -7,6 +7,7 @@ fetch(requestURL)
         console.table(jsonObject); const towns = jsonObject['towns'];
         for(let t=0; t<towns.length; t++) {
             let card = document.createElement('section');
+            card.classList.add('disney');
             let h2 =document.createElement('h2');
             h2.textContent = towns[t].name;
             let averageRainfall = document.createElement('p');
@@ -20,7 +21,8 @@ fetch(requestURL)
             let currentPopulation = document.createElement('p');
             currentPopulation = "Current Population:" + ' ' + towns[t].currentPopulation;
             let photo = document.createElement('img');
-            photo.setAttribute('src', towns[t].imageURL);
+            photo.setAttribute('src', `../Weather/images/${towns[t].photo}`);
+            photo.classList.add('idaho');
             photo.setAttribute('alt', towns[t].name);
             card.appendChild(h2);
             card.appendChild(motto);

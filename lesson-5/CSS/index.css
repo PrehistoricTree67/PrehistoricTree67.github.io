@@ -4,3 +4,14 @@ div.upperstclair {
     grid-gap: 30px;
     padding: 30px;
 }
+
+.disney {
+    background-color: blanchedalmond;
+    text-align: center;
+    outline-style: solid;
+}
+.disney:hover {
+    box-shadow: 6px 6px 6px 7px #444;
+    background-color: rgb(15, 2, 53);
+    color: rgb(255, 255, 255);
+}

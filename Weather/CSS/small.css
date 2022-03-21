@@ -28,6 +28,7 @@ section p {
 .zootopia {
   background-color: bisque;
   text-align: center;
+  outline-style: solid;
 }
 .zootopia:hover {
   box-shadow: 5px 5px 4px 4px #999;
