@@ -4,6 +4,9 @@ section {
     outline-style: solid;
     outline-color: rgb(66, 2, 45);
 }
+section:hover {
+    box-shadow: 5px 4px 4px 3px rgb(42, 2, 80);
+}
 
 body {
     background-color: rgb(197, 197, 197);
