@@ -11,6 +11,14 @@ body {
 header {
   background-color: azure;
 }
+
+.upperstclair {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
 .placeholder {
   display: grid;
   grid-template-columns: 200px 250px;
