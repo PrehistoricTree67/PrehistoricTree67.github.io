@@ -157,4 +157,17 @@
       .ntwo {
           background-color: rgb(255, 233, 227);
       }
+
+      .disney section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  
+    section:nth-child(odd) img {
+        grid-column: 2;
+    }
+  
+    section:nth-child(odd) .idaho {
+        grid-row: 1;
+    }
     }
