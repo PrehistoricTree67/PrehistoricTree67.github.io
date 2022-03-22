@@ -1,0 +1,9 @@
+@media only screen and (min-width: 35em) {
+    section:nth-child(even) .disney {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    *{
+        box-sizing: border-box;
+    }
+}

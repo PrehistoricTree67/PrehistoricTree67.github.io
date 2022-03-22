@@ -17,24 +17,3 @@ div.upperstclair {
 }
 
 * {padding: .35rem;}
-
-@media (min-width: 760px) {
-
-    section:nth-child(odd) {
-        flex-direction: row-reverse;
-    }
-
-    section:nth-child(odd) img {
-        grid-column: 2;
-    }
-
-    section:nth-child(odd) .idaho {
-        grid-row: 1;
-    }
-
-    .disney {
-        padding: .75rem;
-        display:table-cell;
-        align-items: center;
-    }
-}
