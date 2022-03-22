@@ -22,6 +22,10 @@ div.upperstclair {
         max-width: 100%;
     }
 
+    section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
     section:nth-child(odd) img {
         grid-column: 2;
     }
