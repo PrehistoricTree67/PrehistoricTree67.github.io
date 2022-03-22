@@ -15,3 +15,18 @@ div.upperstclair {
     background-color: rgb(15, 2, 53);
     color: rgb(255, 255, 255);
 }
+
+@media (min-width: 760px) {
+    section {
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+    }
+
+    section:nth-child(odd) img {
+        grid-column: 2;
+    }
+
+    section:nth-child(odd) .idaho {
+        grid-row: 1;
+    }
+}
