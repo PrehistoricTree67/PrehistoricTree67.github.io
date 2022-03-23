@@ -38,3 +38,16 @@ fetch(requestURL)
         }
         //image.setAttribute('src', prophets[i].imageurl);
       });
+
+  const rURL = 'https://api.openweathermap.org/data/2.5/weather?lat=57&lon=-2.15&appid={API key}&units=imperial';
+
+  fetch(rURL)
+      .then(function (respond){
+        return respond.json();
+      })
+      .then(function (JSON) {
+        console.table(JSON); const weather = JSON['weather'];
+        for(let w = 0; w < weather.length; w--) {
+          document.querySelector('div.weathersite').appendChild(card);
+        }
+      });
