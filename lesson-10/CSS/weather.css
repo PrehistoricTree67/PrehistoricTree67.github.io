@@ -1,0 +1,14 @@
+html {
+    background-color: rgb(217, 255, 242);
+}
+body {
+    text-align: center;
+    background-color: rgb(255, 234, 225);
+}
+ h1 {
+    font-family: 'Dela Gothic One', cursive;
+ }
+
+ p {
+    font-family: 'Roboto', sans-serif;
+ }
