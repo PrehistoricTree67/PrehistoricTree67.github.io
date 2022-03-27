@@ -1,59 +1,51 @@
-const weatherApiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=64a077ede0594723caa3d5ad20669634'
-const forecastApiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=64a077ede0594723caa3d5ad20669634'
-
-// ***current weather summary***//
-fetch(weatherApiURL)
-  .then((response) => response.json())
-  .then((jsObject) => {
-      console.log(jsObject);
-      document.getElementById('temp').innerText = jsObject.main.temp;
-      document.getElementById('condition').textContent = jsObject.weather[0].description;
-      document.getElementById('high').textContent = jsObject.main.temp_max;
-      document.getElementById('humidity').textContent = jsObject.main.humidity;
-      document.getElementById('speed').innerText = jsObject.wind.speed;
-
-      const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
-      const desc = jsObject.weather[0].description;
-      document.getElementById('imagesrc').textContent = imagesrc;
-      document.getElementById('icon').setAttribute('src', imagesrc);
-      document.getElementById('icon').setAttribute('alt', desc);
-  });
+const forecastApiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=a22fa08f55a59807a4b7b1e71c3230eb";
 
 fetch(forecastApiURL)
-.then((response) => response.json())
-.then((jsObject) => {
-    console.log(jsObject);
-    const daynames = [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-    ];
-    const weatherForecast = jsObject['list'].filter((fore) => {
-        if (fore.dt_txt.includes('18:00:00')) {
-            return fore;
-        }
-    })
-        for (let i = 0; i < weatherForecast.length; i++) {
-            let fiveday = document.createElement('section')
-            fiveday.setAttribute("class", "flex-col")
-            let day = document.createElement("span")
-            day.textContent = daynames[new Date(weatherForecast[i].dt_txt).getDay()]
-            day.setAttribute("class", "col-head")
-            fiveday.appendChild(day)
-            document.querySelector("div.forecast").appendChild(fiveday)
-            let img = document.createElement("img")
-            img.setAttribute("src", 'https://openweathermap.org/img/w/' + weatherForecast[i].weather[0].icon + '.png')
-            img.setAttribute("alt", weatherForecast[i].weather[0].description)
-            img.setAttribute("id", "fore")
-            fiveday.appendChild(img)
-            let temper = document.createElement("span")
-            temper.textContent = weatherForecast[i].main.temp + "°F"
-            temper.setAttribute("class", "data")
-            fiveday.appendChild(temper)
-        }
+  .then(function (response) {
+	return response.json();
+  })
+  .then(function (jsonObject) {
+	// console.table(jsonObject); // temporary checking for valid response and data parsing
+	const forescastList = jsonObject["list"].filter((forecast) => {
+		if(forecast.dt_txt.includes(" 06:00:00")) {
+			return forecast;
+		}
+	});
 
-})
+	const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+	for (let y = 0; y < forescastList.length; y++) {
+		// Create elements
+		let container = document.createElement("div");
+
+        let dayOfTheWeek = document.createElement("span");
+        const eachDay = new Date(forescastList[y].dt_txt);
+
+        let image = document.createElement("img");
+		let imagesrc = "https://openweathermap.org/img/w/" + forescastList[y].weather[0].icon + ".png";
+		let desc = forescastList[i].weather[0].description;
+
+        let span = document.createElement("span");
+        let spanTemperature = parseFloat(forescastList[y].main.temp);
+		let roundTemp = Math.round(spanTemperature);
+        // Set atributes
+		container.setAttribute("class", "flex-col");
+
+        dayOfTheWeek.setAttribute("class", "col-head");
+
+        image.setAttribute("class", "image-day");
+		image.setAttribute("src", imagesrc);
+		image.setAttribute("alt", desc);
+        span.setAttribute("class", "climate");
+		
+		//Append elementes
+		dayOfTheWeek.textContent = weekday[eachDay.getDay()];
+		container.appendChild(dayOfTheWeek)
+		container.appendChild(image);
+		span.textContent = roundTemp + "°F";
+		container.appendChild(span);
+
+		// Add elements to container 
+		document.querySelector("div.flex").appendChild(container);
+	}
+  });
