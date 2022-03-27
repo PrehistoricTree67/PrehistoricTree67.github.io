@@ -1,0 +1,105 @@
+#weatherport {
+    background-color: rgb(255, 234, 228);
+    border: 2px solid rgb(85, 1, 78);
+    padding: 4px;
+    margin: 4px;
+    border-radius: 7px;
+    text-align: center;
+    width: 170px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.weathercontainer {
+    display: flex;
+    background-color: rgb(194, 133, 167);
+    border: 4px solid rgb(22, 0, 0);
+    padding: 6px;
+}
+
+#weatherport:hover {
+    opacity: 0.899;
+    background-color: rgb(98, 71, 143);
+    color: rgb(255, 255, 255);
+}
+
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    background-color: rgb(50, 42, 165);
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+nav a {
+    color: azure;
+}
+
+a:link {
+    color: blueviolet;
+}
+
+a:hover {
+    color: blue;
+    background-color: palegoldenrod;
+}
+
+a:visited {
+    color: coral;
+}
+
+a:active {
+    color: blueviolet;
+    background-color: aqua;
+}
+
+#sum {
+    position: absolute;
+    top: 125px;
+    left: 100px;
+    bottom: 300px;
+    background: radial-gradient(rgb(204, 148, 148), rgb(13, 156, 49));
+    border: 2px solid rgb(10, 1, 1);
+    padding: 1.5rem;
+    box-shadow: 0 0 27px #444;
+    opacity: 0.9;
+}
+
+.work {
+    position: absolute;
+    top: 125px;
+    right: 100px;
+    bottom: 300px;
+    background: radial-gradient(pink, blue);
+    border: 1px solid pink;
+    padding: 1.9rem;
+    box-shadow: 0 0 40px #444;
+    opacity: 0.9;
+}
+
+header {
+    background-color: rgb(237, 251, 253);
+}
+
+.motto {
+    font-size: 20px;
+    margin-top: -20px;
+  }
+  #site-title {
+    margin-top: -80px;
+    margin-bottom: 40px;
+  }
+
+  .logopic {
+    margin-left: 28%;
+}
+
+.webby {
+    text-align: center;
+}
