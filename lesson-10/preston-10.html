@@ -80,70 +80,70 @@
                 <div class="work">
                     <h2 class="today">Today's Weather</h2>
                     <p id="pressy">Current Weather: 
-                        <span>34°F</span>
+                        <span id="currently">34°F</span>
                     </p>
                     <p id="pressy">Wind Chill:
-                        <span>25°F</span>
+                        <span id="wcf"></span>
                     </p>
                     <p id="pressy">Dewpoint: 
-                        <span>28°F</span>
+                        <span id="high">28°F</span>
                     </p>
                     <p id="pressy">Visibility: 
-                        <span>1.24 mi</span>
+                        <span id="humidity">1.24 mi</span>
                     </p>
                     <p id="pressy">Wind Speed: 
-                        <span>20 mph</span>
+                        <span id="wind-speed">20 mph</span>
                     </p>
                 </div>
                 <h3 class="forecast">5 Day Forecast</h3>
                 <div class="weathercontainer">
                 <div id="weatherport">
-                    <section>
-                    <h4 id="day">Sunday</h4>
-                    <img id="icon" src="/Weather/images/sunny-cloudy.webp" width="90px">
-                    <p id="climate">Cloudy</p>
+                    <section class="port">
+                    <h4 class="day">Sunday</h4>
+                    <img id="icon" src="http://openweathermap.org/img/wn/13d@2x.png" width="90px" id="go">
+                    <p id="climate"></p>
                     </section>
                 </div>
                 <div id="weatherport">
-                    <section>
-                    <h4 id="day">Monday</h4>
-                    <img id="icon" src="/Weather/images/rain.png" width="90px">
-                    <p id="climate">Raining</p>
+                    <section class="port">
+                    <h4 class="day">Monday</h4>
+                    <img id="icon" src="http://openweathermap.org/img/wn/11d@2x.png" width="90px" id="go">
+                    <p id="climate"></p>
                     </section>
                 </div>
                 <div id="weatherport">
-                    <section>
-                    <h4 id="day">Tuesday</h4>
-                    <img id="icon" src="/Weather/images/sunny-cloudy.webp" width="90px">
-                    <p id="climate">Cloudy</p>
+                    <section class="port">
+                    <h4 class="day">Tuesday</h4>
+                    <img id="icon" src="http://openweathermap.org/img/wn/10d@2x.png" width="90px" id="go">
+                    <p id="climate"></p>
                     </section>
                 </div>
                 <div id="weatherport">
-                    <section>
-                    <h4 id="day">Wednesday</h4>
-                    <img id="icon" src="/Weather/images/rain.png" width="90px">
-                    <p id="climate">Raining</p>
+                    <section class="port">
+                    <h4 class="day">Wednesday</h4>
+                    <img id="icon" src="http://openweathermap.org/img/wn/01d@2x.png" width="90px" id="go">
+                    <p id="climate"></p>
                     </section>
                 </div>
                 <div id="weatherport">
-                    <section>
-                    <h4 id="day">Thursday</h4>
-                    <img id="icon" src="/Weather/images/sunny-cloudy.webp" width="90px">
-                    <p id="climate">Cloudy</p>
+                    <section class="port">
+                    <h4 class="day">Thursday</h4>
+                    <img id="icon" src="http://openweathermap.org/img/wn/02d@2x.png" width="90px" id="go">
+                    <p id="climate"></p>
                     </section>
                 </div>
                 <div id="weatherport">
-                    <section>
-                    <h4 id="day">Friday</h4>
-                    <img id="icon" src="/Weather/images/sunny-cloudy.webp" width="90px">
-                    <p id="climate">Cloudy</p>
+                    <section class="port">
+                    <h4 class="day">Friday</h4>
+                    <img id="icon" src="http://openweathermap.org/img/wn/03d@2x.png" width="90px" id="go">
+                    <p id="climate"></p>
                     </section>
                 </div>
                 <div id="weatherport">
-                    <section>
-                    <h4 id="day">Saturday</h4>
-                    <img id="icon" src="/Weather/images/snowy.png" width="90px">
-                    <p id="climate">Snowing</p>
+                    <section class="port">
+                    <h4 class="day">Saturday</h4>
+                    <img id="icon" src="http://openweathermap.org/img/wn/13d@2x.png" width="90px" id="go">
+                    <p id="climate"></p>
                     </section>
                 </div>
             </div>
@@ -181,7 +181,9 @@
                 }
             </script>
         </footer></center>
-        <script src="./js/windchill.js"></script>
-        <script src="./js/preston.js"></script>
+        <script src="/Weather/js/windchill.js"></script>
+        <script src="/Weather/js/preston.js"></script>
+        <script src="/lesson-10/js/weatherapi.js"></script>
+        <script src="/lesson-10/js/scripts.js"></script>
     </body>
 </html>
