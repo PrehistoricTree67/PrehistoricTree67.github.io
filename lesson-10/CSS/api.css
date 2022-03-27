@@ -103,3 +103,19 @@ header {
 .webby {
     text-align: center;
 }
+
+#dragon {
+    float: right;
+}
+
+div.placeholder {
+    border: 2px solid rgb(56, 1, 1);
+    background-color: antiquewhite;
+    margin: 90px;
+}
+
+div.placehold {
+    border: 2px solid rgb(56, 32, 1);
+    background-color: rgb(215, 231, 250);
+    margin: 190px;
+}
