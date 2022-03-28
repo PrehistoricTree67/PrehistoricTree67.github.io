@@ -61,14 +61,16 @@ a:active {
 
 #sum {
     position: absolute;
-    top: 125px;
+    top: 229px;
     left: 100px;
-    bottom: 300px;
+    bottom: 200px;
     background: radial-gradient(rgb(204, 148, 148), rgb(13, 156, 49));
     border: 2px solid rgb(10, 1, 1);
     padding: 1.5rem;
     box-shadow: 0 0 27px #444;
     opacity: 0.9;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .work {
