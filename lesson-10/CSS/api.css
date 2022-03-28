@@ -133,3 +133,9 @@ main {
     background-color: rgb(247, 167, 111);
     box-shadow: 0 0 49px 0 #444;
 }
+
+footer {
+    background-color: rgb(63, 45, 163);
+    color: white;
+    box-shadow: 0 0 49px 0 #555;
+}
