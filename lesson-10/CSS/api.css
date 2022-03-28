@@ -119,3 +119,17 @@ div.placehold {
     background-color: rgb(215, 231, 250);
     margin: 190px;
 }
+
+html {
+    background-color: rgb(214, 178, 248);
+}
+
+main {
+    background-color: rgb(212, 249, 255);
+    box-shadow: 0 0 49px 0 #444;
+}
+
+#flaminbird {
+    background-color: rgb(247, 167, 111);
+    box-shadow: 0 0 49px 0 #444;
+}
