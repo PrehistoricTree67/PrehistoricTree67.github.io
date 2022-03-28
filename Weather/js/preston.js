@@ -50,3 +50,9 @@ fetch(requestURL)
             document.querySelector('div.upperstclair').appendChild(card);
         }
     })
+
+    const covid = 'https://byui-cit230.github.io/weather/data/towndata.json';
+    fetch(covid)
+        .then(function (response) {
+            return response.json();
+        })

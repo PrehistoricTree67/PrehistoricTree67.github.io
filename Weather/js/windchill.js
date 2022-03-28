@@ -13,7 +13,3 @@ function windChill(tempFahren, mph){
     let f = 35.74 + 0.6215 * t - 35.75 * s ** 0.16 + 0.4275 * t * s ** 0.16;
     return f;
 }
-
-if(new Date().getDay()!= 6) {
-    document.getElementById("days").style.display = "none";
-}
