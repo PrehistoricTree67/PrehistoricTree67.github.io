@@ -56,3 +56,9 @@ fetch(requestURL)
         .then(function (response) {
             return response.json();
         })
+        .then(function (jsonObject) {
+            console.table(jsonObject); const towns = jsonObject['towns'];
+            if(jsonObject.name === "Fish Haven") {
+                return jsonObject;
+            }
+        });
