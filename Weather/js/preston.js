@@ -56,12 +56,11 @@ fetch(requestURL)
         .then(function (response) {
             return response.json();
         })
-        .then(function (jsonObject) {
+        .then(function (jsonObject){
             console.table(jsonObject); const towns = jsonObject['towns'];
-            if(jsonObject.name === "Fish Haven") {
-                return jsonObject;
+            for(let y=0; y<towns.length; y++) {
+
             }
-        });
 
 
 const weathapi = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=e393808b164a35213aa10cb637f93d76&units=imperial';
