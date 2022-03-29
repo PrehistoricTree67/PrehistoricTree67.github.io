@@ -373,6 +373,12 @@ form label.up input:required:valid {
   text-align: center;
   padding: 3%;
 }
+.concat {
+  border-bottom: 2px solid #960f7f;
+}
+.concatenate {
+  border-bottom: 2px solid #960f7f;
+}
 
 @media(max-width: 768px) {
   .wrap{
