@@ -367,11 +367,19 @@ form label.up input:required:valid {
   background-color: aliceblue;
   text-align: center;
   padding: 3%;
+  border: 11px solid #183D4E;
+}
+.funny:hover {
+  box-shadow: 5px 5px 6px 6px rgb(82, 73, 73);
 }
 .eventuals {
   background-color: aliceblue;
   text-align: center;
   padding: 3%;
+  border: 11px solid #183D4E;
+}
+.eventuals:hover {
+  box-shadow: 5px 5px 6px 6px rgb(82, 73, 73);
 }
 .concat {
   border-bottom: 2px solid #960f7f;
