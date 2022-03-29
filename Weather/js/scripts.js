@@ -45,16 +45,18 @@ fetch(mytownship)
         return respond.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject); const towns = jsonObject['towns'].filter((towns) => {
+        console.table(jsonObject); 
+        const towns = jsonObject['towns'].filter((towns) => {
             if(towns.name==="Soda Springs") {
                 return towns;
             }
         });
-        for(let y=0; y<towns.length; y++) {
+        console.log(towns);
+        for(let y=0; y<towns[0].events.length; y++) {
             let card = document.createElement('section');
             card.classList.add('ur');
             let upevent = document.createElement('p');
-            upevent.textContent = towns[y].events;
+            upevent.textContent = towns[0].events[y];
             card.appendChild(upevent);
             document.querySelector('div.funny').appendChild(card);
         }

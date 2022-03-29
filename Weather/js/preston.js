@@ -97,11 +97,11 @@ fetch(hyiat)
                 return towns;
             }
         });
-        for(let u=0; u<towns.length; u++) {
+        for(let u=0; u<towns[0].events.length; u++) {
             let swapanese = document.createElement('section');
             swapanese.classList.add('elion');
             let wevents = document.createElement('p');
-            wevents.textContent = towns[u].events;
+            wevents.textContent = towns[0].events[u];
             swapanese.appendChild(wevents);
             document.querySelector('div.eventuals').appendChild(swapanese);
         }

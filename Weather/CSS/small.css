@@ -363,6 +363,17 @@ form label.up input:required:valid {
   font-family: 'Rubik', sans-serif;
 }
 
+.funny {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 3%;
+}
+.eventuals {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 3%;
+}
+
 @media(max-width: 768px) {
   .wrap{
     display: block;
