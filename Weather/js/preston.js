@@ -51,17 +51,6 @@ fetch(requestURL)
         }
     })
 
-    const covid = 'https://byui-cit230.github.io/weather/data/towndata.json';
-    fetch(covid)
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (jsonObject){
-            console.table(jsonObject); const towns = jsonObject['towns'];
-            for(let y=0; y<towns.length; y++) {
-
-            }
-
 
 const weathapi = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=e393808b164a35213aa10cb637f93d76&units=imperial';
   const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
