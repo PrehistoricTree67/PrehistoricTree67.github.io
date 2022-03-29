@@ -85,3 +85,24 @@ const weathapi = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&ap
     document.getElementById('climate4').innerHTML=newList[3].main.temp;
     document.getElementById('climate5').innerHTML=newList[4].main.temp;
 });
+
+const hyiat = 'https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(hyiat)
+    .then(function (responder) {
+        return responder.json();
+    })
+    .then(function (jsonObject) {
+        console.table(jsonObject); const towns = jsonObject['towns'].filter((towns) => {
+            if(towns.name==="Fish Haven") {
+                return towns;
+            }
+        });
+        for(let u=0; u<towns.length; u++) {
+            let swapanese = document.createElement('section');
+            swapanese.classList.add('elion');
+            let wevents = document.createElement('p');
+            wevents.textContent = towns[u].events;
+            swapanese.appendChild(wevents);
+            document.querySelector('div.eventuals').appendChild(swapanese);
+        }
+    })
