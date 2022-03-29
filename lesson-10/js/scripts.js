@@ -45,3 +45,8 @@ fetch(APIkey)
     document.getElementById('climate6').innerHTML=newList[4].main.temp;
     document.getElementById('climate7').innerHTML=newList[4].main.temp;
 });
+
+
+if(new Date().getDay()!= 6) {
+    document.getElementById("days").style.display = "none";
+}
