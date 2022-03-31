@@ -1,0 +1,10 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse:collapse;
+    border: 3px solid blue;
+}
+
+header {
+    background-color: rgb(196, 255, 255);
+}
