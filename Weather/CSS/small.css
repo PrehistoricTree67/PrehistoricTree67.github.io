@@ -473,39 +473,81 @@ form label.up input:required:valid {
 .concatenate {
   border-bottom: 2px solid #960f7f;
 }
+#main {
+  display: flex;
+  flex-direction: column;
+}
+.summary {
+  padding: 20px;
+  margin: 20px;
+  border: dotted 3px rgb(2, 85, 60);
+}
+.logopic {
+  margin-left: 12%;
+  margin-right: 18%;
+}
+.township {
+  text-align: center;
+  margin-left: -90%;
+  margin-right: -50%;
+  margin-top: 10px;
+  margin-bottom: -17px;
+  font-family: 'Roboto', sans-serif;
+}
+#activity {
+  font-family: 'Signika Negative', sans-serif;
+}
+#contact {
+  font-family: 'Signika Negative', sans-serif;
+  text-align: center;
+}
+#day {
+  font-family: 'Secular One', sans-serif;
+}
+#climate {
+  font-family: 'Archivo', sans-serif;
+}
+body section.href {
+  position: absolute;
+  top: 357px;
+  float: right;
+  background: radial-gradient(rgb(119, 48, 141));
+  background-color: rgb(255, 234, 190);
+  border: 1px solid rgb(63, 2, 2);
+  padding: 1.03rem;
+  box-shadow: 0 0 90px rgb(28, 102, 163);
+  opacity: 0.9;
+  width: 200px;
+  height: 225px;
+}
+.footnote {
+  background-color: rgb(250, 235, 221);
+}
+#sum {
+  position: absolute;
+  border: 1px solid rgb(117, 17, 156);
+  background: radial-gradient(rgb(247, 151, 41));
+  background-color: beige;
+  padding: 1.20rem;
+  box-sizing: border-box;
+  box-shadow: 0 0 88px rgb(36, 2, 2);
+  top: 260px;
+}
 
-@media(max-width: 768px) {
-  .wrap{
-    display: block;
-  }
 
-  .wrap.active .contain:nth-child(2) {
-    opacity: 0;
-  }
-  .wrap.active .contain:nth-child(1) {
-    transform: translateY(9px) rotate(45deg);
-  }
-  .wrap.active .contain:nth-child(3) {
-    transform: translateY(-9px) rotate(-45deg);
-  }
+.ntwo {
+    background-color: rgb(255, 233, 227);
+}
 
-  .pop{
-    position: fixed;
-    left: -100%;
-    top: 70px;
-    gap: 0;
-    flex-direction: column;
-    background-color:rgb(203, 255, 247);
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-  }
+.disney section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
-  .nav-item {
-    margin: 16px 0;
-  }
+section:nth-child(odd) img {
+  grid-column: 2;
+}
 
-  .pop.active{
-    left: 0;
-  }
+section:nth-child(odd) .idaho {
+  grid-row: 1;
 }
