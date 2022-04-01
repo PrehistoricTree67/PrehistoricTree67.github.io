@@ -5,6 +5,23 @@ table {
     border: 3px solid blue;
 }
 
+td, th {
+    border: 1px solid #dddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.Ronno {
+    background-color: rgb(15, 6, 94);
+}
+th{
+    text-align: center;
+    color: white;
+}
+.grey {
+    background-color: #dddd;
+}
+
 header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(196, 255, 255);
