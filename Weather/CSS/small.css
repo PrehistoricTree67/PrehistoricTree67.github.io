@@ -12,6 +12,91 @@ body {
 header {
   background-color: azure;
 }
+main figure.pic {
+  width: 40%;
+  border: 1px rgb(36, 35, 35) solid;
+}
+main figure.pic img {
+  width: 100%;
+}
+
+figure.pic {
+  background-color: rgb(127, 172, 255);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+figure.one {
+margin-top: 10px;
+margin-left: 15px;
+box-shadow: 5px 6px 5px 4px rgb(56, 55, 55);
+}
+figure.one:hover {
+  box-shadow: 0 0 90px rgb(77, 1, 1);
+}
+figure.two {
+  margin-top: -279px;
+  margin-left: 430px;
+  box-shadow: 5px 6px 5px 4px rgb(56, 55, 55);
+}
+figure.two:hover {
+box-shadow: 0 0 90px rgb(77, 1, 1);
+}
+figure.three {
+margin-top: -187px;
+margin-left: 15px;
+box-shadow: 5px 6px 5px 4px rgb(56, 55, 55);
+}
+figure.three:hover {
+box-shadow: 0 0 90px rgb(77, 1, 1);
+}
+figure.four {
+margin-top: -70px;
+margin-left: 430px;
+box-shadow: 5px 6px 5px 4px rgb(56, 55, 55);
+}
+figure.four:hover {
+box-shadow: 0 0 90px rgb(77, 1, 1);
+}
+figure.five {
+margin-top: -189px;
+margin-left: 15px;
+box-shadow: 5px 6px 5px 4px rgb(56, 55, 55);
+}
+figure.five:hover {
+box-shadow: 0 0 90px rgb(77, 1, 1);
+}
+figure.six {
+margin-top: -270px;
+margin-left: 430px;
+box-shadow: 5px 6px 5px 4px rgb(56, 55, 55);
+}
+figure.six:hover {
+box-shadow: 0 0 90px rgb(77, 1, 1);
+}
+figure.seven {
+margin-top: 178px;
+margin-left: 15px;
+box-shadow: 5px 6px 5px 4px rgb(56, 55, 55);
+}
+figure.seven:hover {
+box-shadow: 0 0 90px rgb(77, 1, 1);
+}
+figure.eight {
+margin-top: -340px;
+margin-left: 430px;
+box-shadow: 5px 6px 5px 4px rgb(56, 55, 55);
+}
+figure.eight:hover {
+box-shadow: 0 0 90px rgb(77, 1, 1);
+}
+figure.nine {
+margin-top: -169px;
+margin-left: 15px;
+box-shadow: 5px 6px 5px 4px rgb(56, 55, 55);
+}
+figure.nine:hover {
+box-shadow: 0 0 90px rgb(77, 1, 1);
+}
 
 .upperstclair {
   display: grid;
