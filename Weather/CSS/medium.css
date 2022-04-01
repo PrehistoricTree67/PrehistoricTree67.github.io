@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35.4em) {
+@media only screen and (max-width: 35.4em) {
     .placeholder {
         background-color: rgb(255, 245, 230);
         font-family: 'Roboto', sans-serif;
