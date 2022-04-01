@@ -11,6 +11,10 @@ td, th {
     padding: 8px;
 }
 
+td {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .Ronno {
     background-color: rgb(15, 6, 94);
 }
@@ -65,4 +69,12 @@ html {
 
 body {
     background-color: aliceblue;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
