@@ -3,10 +3,6 @@
         background-color: rgb(255, 245, 230);
         font-family: 'Roboto', sans-serif;
     }
-    body {
-        max-width: 960px;
-        margin: 0 auto;
-    }
     #main {
         display: flex;
         flex-direction: column;

@@ -6,7 +6,8 @@ html {
 body {
   background-color: #afd38c;
   box-shadow: 6px 10px 66px rgb(0, 27, 49);
-
+  max-width: 860px;
+  margin: 0 auto;
 }
 header {
   background-color: azure;
