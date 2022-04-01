@@ -6,5 +6,41 @@ table {
 }
 
 header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(196, 255, 255);
+}
+
+.heading {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 17px;
+}
+
+.scotey {
+    margin-top: -100px;
+    margin-bottom: 20px;
+}
+
+.motto {
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+#logo22 {
+    margin-left: 1284px;
+    margin-top: -200px;
+    margin-bottom: 117px;
+}
+
+main {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+html {
+    background-color: cyan;
+}
+
+body {
+    background-color: aliceblue;
 }
