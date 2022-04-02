@@ -236,10 +236,10 @@ form fieldset {
     max-width: 20%;
   }
   
-  form label.up input:required {
-    border-right: crimson solid 6px;
+  form label.upper input:required {
+    border-right: rgb(220, 20, 203) solid 6px;
   }
   
-  form label.up input:required:valid {
-    border-right:blue solid 6px;
+  form label.upper input:required:valid {
+    border-right:rgb(2, 2, 82) solid 6px;
   }
