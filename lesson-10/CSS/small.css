@@ -156,3 +156,18 @@ a:active{
 #funs {
     margin-top: -14px;
 }
+
+#in {
+    margin-left: 450px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#contract {
+    margin-top: -194px;
+    margin-bottom: 50px;
+}
+
+iframe {
+    margin-top: 9px;
+}
