@@ -116,3 +116,43 @@ a:visited{
 a:active{
     color: chartreuse;
 }
+
+
+#azure {
+    margin: auto;
+    border: 2px solid #555;
+    width: 990px;
+}
+
+#comps {
+    margin-left: 50px;
+    border: 1px solid #333;
+    width: 390px;
+}
+
+#quips {
+    margin-top: -270px;
+    margin-left: 550px;
+    border: 1px solid #333;
+    width: 400px;
+}
+
+#gl {
+    margin-top: -14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#ours {
+    margin-top: -14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#recomend {
+    margin-top: -14px;
+}
+
+#funs {
+    margin-top: -14px;
+}
