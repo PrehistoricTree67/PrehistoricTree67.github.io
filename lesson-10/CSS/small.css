@@ -52,10 +52,18 @@ header {
     margin-bottom: -20px;
 }
 
+#logo13:hover {
+    box-shadow: 5px 8px 8px 5px rgba(102, 1, 1, 0.867);
+}
+
 #logo22 {
     margin-left: 984px;
     margin-top: -120px;
     margin-bottom: 60px;
+}
+
+#logo22:hover {
+    box-shadow: 5px 8px 8px 5px rgba(1, 61, 77, 0.867);
 }
 
 main {
@@ -82,4 +90,29 @@ p {
 
 nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(0, 0, 70);
+}
+
+.ul {
+    color: azure;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+a:link{
+    color: rgb(212, 255, 241);
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:active{
+    color: chartreuse;
 }
