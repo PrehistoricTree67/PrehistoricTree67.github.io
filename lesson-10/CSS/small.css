@@ -243,3 +243,13 @@ form fieldset {
   form label.upper input:required:valid {
     border-right:rgb(2, 2, 82) solid 6px;
   }
+
+  #thanks {
+      margin: auto;
+      width: 700px;
+  }
+
+  #U {
+      margin-top: 7px;
+      margin-bottom: -20px;
+  }
