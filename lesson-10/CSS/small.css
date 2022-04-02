@@ -158,8 +158,13 @@ a:active{
 }
 
 #in {
-    margin-left: 450px;
+    margin-left: 510px;
     margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#congrats {
+    margin-top: -19px;
     margin-bottom: 10px;
 }
 
