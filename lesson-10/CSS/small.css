@@ -293,3 +293,9 @@ form fieldset {
   #footer {
       margin-top: 40px;
   }
+
+  #explore3 {
+    margin-top: 17px;
+    border: 2px solid #453;
+    width: 490px;
+  }
