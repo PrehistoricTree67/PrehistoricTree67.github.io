@@ -163,6 +163,11 @@ a:active{
     margin-bottom: 10px;
 }
 
+form label.qup {
+    display: block;
+    padding: .75rem 0;
+}
+
 #congrats {
     margin-top: -19px;
     margin-bottom: 10px;

@@ -25,4 +25,43 @@
             </ul>
         </nav>
     </header>
+    <body>
+        <main>
+            <h1>Contact Us</h1>
+            <form method="get" action="">
+                <fieldset>
+                    <legend>Rental</legend>
+                    <label class="lower-st">Type <select>
+                        <option>&#9662;</option>
+                        <option>Luxury Trailer</option>
+                        <option>Fancy Hotel</option>
+                        <option>Condo</option>
+                        <option>Motel</option>
+                        <option>Other</option>
+                    </select></label>
+                    <label class="lower-st">Bedrooms:<input type="number" name="number" required> </label>
+
+                    <div>Days/Nights</div>
+                    <label class="qup"><input type="radio" name="audience" value="one">One day/night </label>
+                    <label class="qup"><input type="radio" name="audience" value="two">Two days/nights </label>
+                    <label class="qup"><input type="radio" name="audience" value="three">Three days/nights </label>
+                    <label class="qup"><input type="radio" name="audience" value="four">Four days/nights </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Contact Info</legend>
+                    <label class="upper">First Name* <input type="text" name="fname" required> </label>
+
+                    <label class="upper">Last Name* <input type="text" name="lname" required> </label>
+
+                    <label class="upper">Email* <input type="email" name="email" placeholder="someone@byui.edu" required> </label><br>
+
+                    <legend>Comments:</legend>
+                    <textarea row="1290" cols="50"></textarea>
+                </fieldset>
+
+                <input type="submit" value="Submit" class="btn"
+            </form>
+        </main>
+    </body>
 </html>
