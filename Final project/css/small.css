@@ -1,0 +1,25 @@
+main {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+html {
+    background-color: cyan;
+}
+
+body {
+    background-color: aliceblue;
+    box-shadow: 2px 4px 7px 9px rgba(12, 13, 104, 0.867);
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(196, 255, 255);
+    text-align: center;
+}
+
+.logo19 {
+    margin-left: 984px;
+    margin-top: -120px;
+    margin-bottom: 60px;
+}
