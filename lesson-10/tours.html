@@ -130,9 +130,14 @@
             </div>
         <center>
             <div id="footer">
-                &copy;Spidercycles Reserves | Jonah (Yen-Xin) Li | WDD 230 | <a href="https://my.byui.edu/ICS/" style="color:rgb(0, 0, 133)" target="blank">BYU-Idaho</a>
+                &copy;Spidercycles Reserves | Jonah (Yen-Xin) Li | WDD 230 | <a href="https://my.byui.edu/ICS/" style="color:rgb(0, 0, 133)" target="blank">BYU-Idaho</a><br><br>
             </div>
-        </center>
+        
+            <div id="date"></div> 
+            <script>
+                var upDate = new Date(document.lastModified);
+                document.getElementById("date").innerHTML = upDate;
+            </script></center>
         </footer>
         <script src="/lesson-10/js/scripts.js"></script>
         <script src="/lesson-10/js/weatherapi.js"></script>
