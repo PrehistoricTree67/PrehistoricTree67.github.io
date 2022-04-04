@@ -140,3 +140,7 @@ a:link {
       margin-left: 10px;
       margin-right: 10px;
   }
+
+  #date {
+    color: white;
+}
