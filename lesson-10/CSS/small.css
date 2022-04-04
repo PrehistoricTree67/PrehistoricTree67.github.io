@@ -326,3 +326,8 @@ form fieldset {
       color: white;
       box-shadow: 4px 4px 5px 4px #444;
   }
+
+  footer {
+      background-color: rgb(93, 93, 140);
+      color: white;
+  }
