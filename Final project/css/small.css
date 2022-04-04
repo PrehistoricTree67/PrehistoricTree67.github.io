@@ -117,3 +117,26 @@ a:link {
   .policy {
     margin-bottom: -2px;
   }
+
+  #taipei {
+      width: 300px;
+      border: 1px solid #444;
+  }
+
+  #young-life {
+      width: 500px;
+      border: 1px solid #444;
+      margin-left: 330px;
+      margin-top: -520px;
+      margin-bottom: 20px;
+  }
+
+  .jordanlieberman {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .laurenliebs {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
