@@ -331,3 +331,7 @@ form fieldset {
       background-color: rgb(93, 93, 140);
       color: white;
   }
+
+  #date {
+      color: white;
+  }
