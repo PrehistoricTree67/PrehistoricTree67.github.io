@@ -38,11 +38,6 @@ header {
     margin-bottom: 20px;
 }
 
-footer {
-    background-color: rgb(5, 85, 85);
-    width: 980px;
-}
-
 #flamingofoot {
     color: rgb(255, 255, 255);
 }
@@ -88,4 +83,37 @@ a:link {
   a:active {
     color: #afd38c;
     background-color: rgb(228, 156, 222);
+  }
+
+  #address, #hw {
+      color: rgb(254, 254, 254);
+  }
+
+  #address {
+      width: 990px;
+      margin-left: 530px;
+      margin-top: -290px;
+      margin-bottom: 160px;
+  }
+
+  .logo84 {
+      margin-left: 130px;
+  }
+
+  #hw {
+      margin-left: 280px;
+  }
+
+  footer {
+    background-color: rgb(5, 85, 85);
+    width: 960px;
+      margin-left: 200px;
+  }
+
+  .purpose {
+      margin-bottom: -14px;
+  }
+
+  .policy {
+    margin-bottom: -2px;
   }
