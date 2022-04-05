@@ -10,7 +10,7 @@ fetch(APIkey)
     document.getElementById('humidity').innerHTML=jsonObject.main.humidity;
   });
 
-  const weathapi = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=e393808b164a35213aa10cb637f93d76&units=imperial';
+  const weathapi = 'https://api.openweathermap.org/data/2.5/forecast?id=3530103&appid=e393808b164a35213aa10cb637f93d76&units=imperial';
   const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   fetch(weathapi)
   .then(function (response) {

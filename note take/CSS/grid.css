@@ -3,7 +3,7 @@
     grid-template-columns: 200px 300px 100px;
     grid-template-rows: 200px 300px 100px;
     grid-gap: 20px;
-    background-color: aqua;
+    border: 14px solid rgb(0, 69, 69);
 }
 
 .grid2 {
@@ -42,5 +42,11 @@
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px;
     grid-auto-rows: 300px;
+    background-color:  rgb(98, 24, 2);
+}
+
+.grid7 {
+    display: grid;
+    grid-auto-rows: 100px;
     background-color:  rgb(98, 24, 2);
 }
