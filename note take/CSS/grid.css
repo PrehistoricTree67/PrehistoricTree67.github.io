@@ -3,4 +3,44 @@
     grid-template-columns: 200px 300px 100px;
     grid-template-rows: 200px 300px 100px;
     grid-gap: 20px;
+    background-color: aqua;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 200px 300px 100px;
+    background-color:  rgb(98, 24, 2);
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 200px 300px 100px;
+    grid-template-rows: 200px 300px;
+    background-color: rgb(87, 23, 3);
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 200px 300px 100px;
+    grid-template-rows: 200px 300px 100px;
+    background-color:  rgb(98, 24, 2);
+}
+
+.gird4 p {
+    z-index: 2;
+}
+
+.grid5 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    background-color:  rgb(98, 24, 2);
+}
+
+.grid6 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-auto-rows: 300px;
+    background-color:  rgb(98, 24, 2);
 }
