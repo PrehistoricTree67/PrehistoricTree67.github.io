@@ -30,7 +30,25 @@
     </header>
     <body>
         <main>
-            
+            <form method="get" action="rental.json">
+                <fieldset>
+                    <legend>Vehichle Rental Services</legend>
+                    <label class="upper" placeholder="Honda Motor Vehicles"><select>
+                        <option>&#9662;</option>
+                        <option>Honda Motor Scooters Metropolitan (49cc)</option>
+                        <option>Honda Dio (1100cc)</option>
+                        <option>Honda PCX150 (149cc)</option>
+                        <option>ATV Side-by-Side Honda Pioneer 1000</option>
+                        <option>Jeep Rentals 4-door Jeep Wrangler-manual with A/C-5 people max</option>
+                        <option>Jeep Rentals 2-door Jeep Wrangler-open air-manual-4 people max</option>
+                    </select></label>
+
+                    <b><div>On average: How Long to rent our vehicles?</div></b>
+                    <label class="qup"><input type="radio" name="audience" value="daily">Daily </label>
+                    <label class="qup"><input type="radio" name="audience" value="Weekly">Weekly </label>
+                    <label class="qup"><input type="radio" name="audience" value="Monthly">Monthly </label>
+                </fieldset>
+            </form>
         </main>
         <footer>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239283.13880245507!2d-87.01434049033341!3d20.432349275168228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1sen!2sus!4v1648930940908!5m2!1sen!2sus" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -55,5 +73,6 @@
                 document.getElementById("date").innerHTML = upDate;
             </script></center>
         </footer>
+        <script src="/lesson-10/js/rental.json"></script>
     </body>
 </html>
