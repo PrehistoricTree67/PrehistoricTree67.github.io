@@ -6,4 +6,12 @@ fetch(weather)
     })
     .then(function (jsonObject){
         console.table(jsonObject);
+        let list = jsonObject.list;
+        console.log(list);
+        let newList = [];
+        for(let r=0; r<list.length; r++){
+            if(list[r].dt_txt.includes("20:00:00")) {
+                newList.push(list[r]);
+            }
+        }
     })
