@@ -33,7 +33,9 @@
             <form method="get" action="rental.json">
                 <fieldset>
                     <legend>Vehichle Rental Services</legend>
-                    <label class="upper" placeholder="Honda Motor Vehicles"><select>
+                    <label>Start Date* <input type="date" name="completeDate" required> </label> to 
+                    <label>End Date* <input type="date" name="completeDate" required> </label>
+                    <label class="upper"><select>
                         <option>&#9662;</option>
                         <option>Honda Motor Scooters Metropolitan (49cc)</option>
                         <option>Honda Dio (1100cc)</option>
@@ -47,6 +49,8 @@
                     <label class="qup"><input type="radio" name="audience" value="daily">Daily </label>
                     <label class="qup"><input type="radio" name="audience" value="Weekly">Weekly </label>
                     <label class="qup"><input type="radio" name="audience" value="Monthly">Monthly </label>
+                    <div></div>
+                    <input type="submit" value="Submit" class="btn">
                 </fieldset>
             </form>
         </main>
