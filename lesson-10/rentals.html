@@ -52,6 +52,73 @@
                     <div></div>
                     <input type="submit" value="Submit" class="btn">
                 </fieldset>
+                <script type="text/javascript">
+                let cozumelvehicles = 
+                [
+    {
+        "name": "Honda Motor Scooters",
+        "type": "Honda Metropolitan (49cc)",
+        "maxAmount": "1 person",
+        "price": "$50,000.99",
+        "quantity": 5500,
+        "reservation": "$50",
+        "walk-in": "$60",
+        "refund":null
+    },
+    {
+        "name": "Honda Motor Scooters",
+        "type": "Honda Dio (110cc)",
+        "maxAmount": "2 persons",
+        "price": "$59,876.97",
+        "quantity": 5500,
+        "reservation": "$70",
+        "walk-in": "$80",
+        "refund":null
+    },
+    {
+        "name": "Honda Motor Scooters",
+        "type": "Honda PCX150 (149cc)",
+        "maxAmount": "2 persons",
+        "price": "$62,987.98",
+        "quantity": 5500,
+        "reservation": "$90",
+        "walk-in": "$100",
+        "refund":null
+    },
+    {
+        "name": "ATV Side-by-Side",
+        "type": "Honda Pioneer 1000",
+        "maxAmount": "4 people max",
+        "price": "$44,598.78",
+        "quantity": 5500,
+        "reservation": "$120",
+        "walk-in": "$140",
+        "refund":null
+    },
+    {
+        "name": "Jeep Rentals",
+        "type": "4-door Jeep Wrangler—manual with A/C",
+        "maxAmount": "5 people max",
+        "price": "$120,999.98",
+        "quantity": 5500,
+        "reservation": "$170",
+        "walk-in": "$210",
+        "refund":null
+    },
+    {
+        "name": "Jeep Rentals",
+        "type": "2-door Jeep Wrangler—open air—manual",
+        "maxAmount": "4 people max",
+        "price": "$111,129.95",
+        "quantity": 5500,
+        "reservation": "$145",
+        "walk-in": "$160",
+        "refund": null
+    }
+]
+
+console.log(JSON.parse(cozumelvehicles)[2].name)
+                </script>
             </form>
         </main>
         <footer>
@@ -77,6 +144,5 @@
                 document.getElementById("date").innerHTML = upDate;
             </script></center>
         </footer>
-        <script src="/lesson-10/js/rental.json"></script>
     </body>
 </html>
