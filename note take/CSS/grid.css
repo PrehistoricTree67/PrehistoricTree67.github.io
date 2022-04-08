@@ -453,3 +453,36 @@
     justify-items: center;
     background-color: rgb(63, 33, 33);
 }
+
+.grid44 {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-items: start;
+    background-color: rgb(52, 255, 21);
+}
+
+.grid45 {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-items: end;
+    background-color: #851d60;
+}
+
+.grid46 {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-items: start;
+    background-color: #c7208d;
+}
+
+.grid46 .itm:nth-child(2) {
+    background: red;
+    justify-self: end;
+}
+
+.grid47 {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    align-content: stretch;
+    background-color: navy;
+}
