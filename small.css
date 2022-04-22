@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
+h1, h2 {
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    color: #333;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+nav a:link {
+    color: #666;
+  }
+  
+ nav a:visited {
+    color: #666;
+  }
+  
+ nav a:hover {
+    color: #00ddff;
+  }
+  
+nav a:active {
+    color: #DEB887;
+  }
